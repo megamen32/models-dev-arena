@@ -15,6 +15,8 @@
 There's no single database with information about all the available AI models. We started Models.dev as a community-contributed project to address this. We also use it internally in [opencode](https://opencode.ai).
 
 > **This fork** augments the dataset with [Arena AI leaderboard](https://arena.ai) intelligence scores — see [INTELLIGENCE.md](./INTELLIGENCE.md) for the `score` formula, confidence buckets, and matching strategy. Run `bun run arena:sync` to refresh.
+>
+> **Public feed**: <https://megamen32.github.io/models-dev-arena/> — JSON endpoints (`/models-arena.json`, `/models.json`, `/_meta.json`) updated daily by GitHub Actions.
 
 ## API
 

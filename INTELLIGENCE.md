@@ -44,6 +44,64 @@ entry, keyed by its leaderboard name:
 }
 ```
 
+## Public feed (GitHub Pages)
+
+A static copy of the merge is published by GitHub Pages at:
+
+```
+https://megamen32.github.io/models-dev-arena/
+```
+
+Endpoints (all served as `application/json` from the `dev` branch):
+
+| File                     | What's in it                                                            |
+| ------------------------ | ----------------------------------------------------------------------- |
+| `/`                      | Status page (last sync time, counts, source links)                     |
+| `/_meta.json`            | Last-refresh timestamp, Arena `last_updated`, counts, source URLs      |
+| `/models-arena.json`     | Flat lookup keyed by Arena leaderboard name                            |
+| `/models.json`           | Full models.dev catalog with `arena` field on matched entries           |
+| `/INTELLIGENCE.md`       | This document                                                           |
+
+The index page fetches `/_meta.json` and renders a live "last refresh"
+card. The page is regenerated on every push to `dev`; `arena:sync` is
+also scheduled to run daily at 06:00 UTC (see
+`.github/workflows/arena-sync.yml`).
+
+```jsonc
+{
+  "id": "anthropic/claude-opus-4.6",
+  // ... existing models.dev fields ...
+  "arena": {
+    "leaderboard": "code",                  // "text" or "code"
+    "rank": 6,                              // Arena rank
+    "elo": 1542,                            // raw ELO
+    "ci": 5,                                // 95% CI half-width
+    "votes": 9778,                          // human preference votes
+    "vendor": "Anthropic",
+    "license": "proprietary",
+    "score": 0.6698,                        // normalized taskFit (see below)
+    "confidence": "high",                   // "high" / "medium" / "low"
+    "categories": ["coding"],               // mapped models.dev task categories
+    "lastUpdated": "Jun 15, 2026",
+    "sourceUrl": "https://arena.ai/leaderboard/code",
+    "fetchedAt": "2026-06-16T07:00:50Z"
+  }
+}
+```
+
+A flat side-file `models-arena.json` is also written — every Arena
+entry, keyed by its leaderboard name:
+
+```json
+{
+  "arena": {
+    "claude-opus-4-6-thinking": { "elo": 1542, "score": 0.6289, ... },
+    "kimi-k2.6": { "elo": 1515, "score": 0.5841, ... }
+  },
+  "generatedAt": "2026-06-16T07:00:50Z"
+}
+```
+
 ## How `score` is calculated
 
 The raw Arena score is an ELO rating from pairwise human preference

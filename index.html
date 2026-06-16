@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>models-dev-arena · public feed</title>
+    <link rel="icon" type="image/svg+xml" href="logo-light.svg" />
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+        max-width: 760px;
+        margin: 2.5rem auto;
+        padding: 0 1.25rem;
+        color: #1a1a1a;
+      }
+      @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #0e0f12; } }
+      a { color: #6366f1; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { margin: 0 0 .25rem; font-size: 1.7rem; }
+      .lede { color: #666; margin: 0 0 2rem; }
+      @media (prefers-color-scheme: dark) { .lede { color: #aaa; } }
+      .pill {
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 500;
+        background: #eef2ff;
+        color: #4338ca;
+      }
+      @media (prefers-color-scheme: dark) {
+        .pill { background: #1f1b4d; color: #c7d2fe; }
+      }
+      .status {
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+      }
+      @media (prefers-color-scheme: dark) { .status { border-color: #27272a; } }
+      .status dl {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 4px 18px;
+        margin: 0;
+      }
+      .status dt { color: #666; }
+      @media (prefers-color-scheme: dark) { .status dt { color: #aaa; } }
+      .status dd { margin: 0; font-variant-numeric: tabular-nums; }
+      h2 { margin-top: 2.5rem; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .04em; color: #666; }
+      @media (prefers-color-scheme: dark) { h2 { color: #aaa; } }
+      code, .url {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        background: #f4f4f5;
+        padding: 1px 6px;
+        border-radius: 4px;
+        font-size: 13px;
+        word-break: break-all;
+      }
+      @media (prefers-color-scheme: dark) { code, .url { background: #1c1d20; } }
+      ul.endpoints { list-style: none; padding: 0; margin: 0; }
+      ul.endpoints li { margin: 0 0 .5rem; }
+      footer { margin-top: 3rem; color: #888; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <h1>models-dev-arena <span class="pill">public feed</span></h1>
+    <p class="lede">
+      Fork of <a href="https://models.dev">models.dev</a> enriched with
+      <a href="https://arena.ai">Arena AI</a> leaderboard intelligence scores.
+      Refreshed daily by GitHub Actions.
+    </p>
+
+    <div class="status" id="status">Loading…</div>
+
+    <h2>Endpoints</h2>
+    <ul class="endpoints">
+      <li><span class="url">/models-arena.json</span> — flat lookup keyed by Arena model name (one entry per leaderboard model).</li>
+      <li><span class="url">/models.json</span> — full models.dev catalog with <code>arena</code> field attached where matched (87 of 364 entries on last sync).</li>
+      <li><span class="url">/_meta.json</span> — last-sync timestamp, source URLs, and counts.</li>
+      <li><span class="url">/INTELLIGENCE.md</span> — formula, confidence buckets, matching strategy.</li>
+      <li><span class="url">/sync-arena</span> — the Bun script that builds it all (<code>packages/core/script/sync-arena.ts</code>).</li>
+    </ul>
+
+    <h2>Source repo</h2>
+    <ul class="endpoints">
+      <li><a href="https://github.com/megamen32/models-dev-arena">github.com/megamen32/models-dev-arena</a></li>
+      <li>Raw files: <code>https://raw.githubusercontent.com/megamen32/models-dev-arena/dev/&lt;file&gt;</code></li>
+    </ul>
+
+    <footer>
+      This page is served by GitHub Pages from the <code>dev</code> branch.
+      Last render is a static snapshot taken at the most recent Action run.
+    </footer>
+
+    <script>
+      // Fetch the latest _meta.json and render a small status card.
+      // The fetch is best-effort — if it fails, the page still works.
+      (async () => {
+        const card = document.getElementById("status");
+        try {
+          const r = await fetch("./_meta.json", { cache: "no-store" });
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          const m = await r.json();
+          const ts = new Date(m.generatedAt);
+          const ageMin = Math.round((Date.now() - ts.getTime()) / 60000);
+          const ageStr =
+            ageMin < 60
+              ? `${ageMin} min ago`
+              : ageMin < 60 * 24
+                ? `${Math.round(ageMin / 60)} h ago`
+                : `${Math.round(ageMin / 60 / 24)} d ago`;
+          const text =
+            m.arena?.code?.last_updated || m.arena?.text?.last_updated || "—";
+          card.innerHTML = `
+            <dl>
+              <dt>Last refresh</dt>
+              <dd>${ts.toISOString()} <small>(${ageStr})</small></dd>
+              <dt>Arena last_updated</dt>
+              <dd>${text}</dd>
+              <dt>Counts</dt>
+              <dd>${m.counts.matched} / ${m.counts.modelsDevEntries} models.dev entries matched · ${m.counts.arenaEntries} Arena leaderboard entries</dd>
+              <dt>Pages URL</dt>
+              <dd><a href="${m.sources.pages}">${m.sources.pages}</a></dd>
+              <dt>Source</dt>
+              <dd><a href="${m.sources.arena}">${m.sources.arena}</a></dd>
+            </dl>
+          `;
+        } catch (err) {
+          card.textContent = `Could not load _meta.json: ${err.message}`;
+        }
+      })();
+    </script>
+  </body>
+</html>

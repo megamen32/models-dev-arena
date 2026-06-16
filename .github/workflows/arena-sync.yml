@@ -1,0 +1,47 @@
+name: arena:sync
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — well after Arena's ~daily refresh.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [dev]
+    paths:
+      - "packages/core/script/sync-arena.ts"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arena-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.0
+
+      - name: Run arena sync
+        run: bun packages/core/script/sync-arena.ts
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git -c user.email="github-actions[bot]@users.noreply.github.com" \
+                -c user.name="github-actions[bot]" \
+                add INTELLIGENCE.md models-arena.json models.json _meta.json
+            git -c user.email="github-actions[bot]@users.noreply.github.com" \
+                -c user.name="github-actions[bot]" \
+                commit -m "chore(arena): refresh from Arena AI leaderboard"
+            git push origin dev
+            echo "::notice::Committed and pushed."
+          else
+            echo "::notice::No changes — Arena data is up to date."
+          fi

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-06-16T08:58:07.579Z",
+  "arena": {
+    "text": {
+      "leaderboard": "text",
+      "source_url": "https://arena.ai/leaderboard/text",
+      "fetched_at": "2026-06-16T07:00:50.402436+00:00",
+      "last_updated": "Jun 10, 2026",
+      "model_count": 20
+    },
+    "code": {
+      "leaderboard": "code",
+      "source_url": "https://arena.ai/leaderboard/code",
+      "fetched_at": "2026-06-16T07:00:50.402436+00:00",
+      "last_updated": "Jun 15, 2026",
+      "model_count": 20
+    }
+  },
+  "counts": {
+    "modelsDevEntries": 364,
+    "arenaEntries": 30,
+    "matched": 87
+  },
+  "sources": {
+    "modelsDev": "https://models.dev",
+    "arena": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard",
+    "fork": "https://github.com/megamen32/models-dev-arena",
+    "pages": "https://megamen32.github.io/models-dev-arena/"
+  }
+}

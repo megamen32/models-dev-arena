@@ -254,8 +254,31 @@ function main() {
         flat[m.model.toLowerCase()] = e.attach;
       }
     }
-    writeFileSync(outPath, JSON.stringify({ arena: flat, generatedAt: new Date().toISOString() }, null, 2));
+    const now = new Date().toISOString();
+    const arenaMeta = { arena: flat, generatedAt: now };
+    writeFileSync(outPath, JSON.stringify(arenaMeta, null, 2));
     console.log(`[models-arena.json] wrote ${Object.keys(flat).length} entries → ${outPath}`);
+
+    // _meta.json — tiny status file for GitHub Pages consumers / status badges.
+    const meta = {
+      generatedAt: now,
+      arena: {
+        text: arena.text?.meta ?? null,
+        code: arena.code?.meta ?? null,
+      },
+      counts: {
+        modelsDevEntries: models.length,
+        arenaEntries: Object.keys(flat).length,
+        matched: 0, // filled in below
+      },
+      sources: {
+        modelsDev: "https://models.dev",
+        arena: "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard",
+        fork: "https://github.com/megamen32/models-dev-arena",
+        pages: "https://megamen32.github.io/models-dev-arena/",
+      },
+    };
+    const metaPath = resolve(root, "_meta.json");
 
     // Attach `arena` field to each models.dev entry.
     let matched = 0;
@@ -266,10 +289,14 @@ function main() {
         matched++;
       }
     }
+    meta.counts.matched = matched;
     console.log(`[models.json] attached arena to ${matched}/${models.length} entries`);
 
     writeFileSync(modelsPath, JSON.stringify(data, null, 2));
     console.log(`[models.json] updated in place → ${modelsPath}`);
+
+    writeFileSync(metaPath, JSON.stringify(meta, null, 2));
+    console.log(`[_meta.json] wrote → ${metaPath}`);
   })();
 }
 
