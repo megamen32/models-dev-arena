@@ -41,7 +41,37 @@ jobs:
                 -c user.name="github-actions[bot]" \
                 commit -m "chore(arena): refresh from Arena AI leaderboard"
             git push origin dev
-            echo "::notice::Committed and pushed."
+            echo "::notice::Committed and pushed to dev."
           else
             echo "::notice::No changes — Arena data is up to date."
           fi
+
+      - name: Publish to gh-pages
+        # Mirror the public files onto the orphan gh-pages branch so the
+        # GitHub Pages feed is updated in lockstep with dev. The Pages
+        # site is served from gh-pages, not dev, so the heavy upstream
+        # tree never enters the artifact upload (which was getting
+        # rejected by the secret scanner).
+        run: |
+          git worktree add -f /tmp/gh-pages gh-pages
+          cp _meta.json models-arena.json INTELLIGENCE.md /tmp/gh-pages/
+          cd /tmp/gh-pages
+          # Ensure the marker files exist.
+          touch .nojekyll
+          # Pull logos from the dev checkout so favicon survives.
+          cp /tmp/opencode/models-dev-arena/logo-light.svg .
+          cp /tmp/opencode/models-dev-arena/logo-dark.svg .
+          # Refresh index.html from the dev copy too (status card layout).
+          cp /tmp/opencode/models-dev-arena/index.html .
+          git add .nojekyll _meta.json models-arena.json INTELLIGENCE.md \
+                  logo-light.svg logo-dark.svg index.html
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git -c user.email="github-actions[bot]@users.noreply.github.com" \
+                -c user.name="github-actions[bot]" \
+                commit -m "chore(pages): refresh public feed"
+            git push origin gh-pages
+            echo "::notice::Public feed updated."
+          else
+            echo "::notice::Public feed is up to date."
+          fi
+          git worktree remove /tmp/gh-pages --force
