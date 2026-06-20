@@ -15,7 +15,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-6-thinking": {
       "leaderboard": "code",
@@ -32,7 +32,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-7-thinking": {
       "leaderboard": "code",
@@ -49,7 +49,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-6": {
       "leaderboard": "code",
@@ -66,7 +66,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-7": {
       "leaderboard": "code",
@@ -83,7 +83,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "muse-spark": {
       "leaderboard": "text",
@@ -103,7 +103,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemini-3.1-pro-preview": {
       "leaderboard": "text",
@@ -123,7 +123,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemini-3-pro": {
       "leaderboard": "text",
@@ -143,7 +143,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-8-thinking": {
       "leaderboard": "code",
@@ -160,7 +160,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.5-high": {
       "leaderboard": "text",
@@ -180,7 +180,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.4-high": {
       "leaderboard": "text",
@@ -200,7 +200,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-8": {
       "leaderboard": "code",
@@ -217,7 +217,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemini-3.5-flash": {
       "leaderboard": "code",
@@ -234,7 +234,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.2-chat-latest-20260210": {
       "leaderboard": "text",
@@ -254,7 +254,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "glm-5.1": {
       "leaderboard": "code",
@@ -271,7 +271,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.5": {
       "leaderboard": "text",
@@ -291,7 +291,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "qwen3.7-max-preview": {
       "leaderboard": "text",
@@ -311,7 +311,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "grok-4.20-beta-0309-reasoning": {
       "leaderboard": "text",
@@ -331,7 +331,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "grok-4.20-beta1": {
       "leaderboard": "text",
@@ -351,7 +351,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemini-3-flash": {
       "leaderboard": "text",
@@ -371,7 +371,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-5-20251101-thinking-32k": {
       "leaderboard": "code",
@@ -388,7 +388,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.5-instant": {
       "leaderboard": "text",
@@ -408,7 +408,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "grok-4.20-multi-agent-beta-0309": {
       "leaderboard": "text",
@@ -428,7 +428,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-sonnet-4-6": {
       "leaderboard": "code",
@@ -445,7 +445,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "glm-5.2 (max)": {
       "leaderboard": "code",
@@ -462,7 +462,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-5-20251101": {
       "leaderboard": "text",
@@ -482,7 +482,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.4": {
       "leaderboard": "text",
@@ -502,7 +502,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "ernie-5.1": {
       "leaderboard": "text",
@@ -522,7 +522,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "mimo-v2.5-pro": {
       "leaderboard": "code",
@@ -539,7 +539,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "grok-4.1-thinking": {
       "leaderboard": "text",
@@ -559,7 +559,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "qwen3.5-max-preview": {
       "leaderboard": "text",
@@ -579,7 +579,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "qwen3.6-max-preview": {
       "leaderboard": "code",
@@ -596,7 +596,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemini-3-flash (thinking-minimal)": {
       "leaderboard": "text",
@@ -616,7 +616,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "kimi-k2.6": {
       "leaderboard": "code",
@@ -633,7 +633,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "grok-4.1": {
       "leaderboard": "text",
@@ -653,7 +653,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "deepseek-v4-pro-thinking": {
       "leaderboard": "text",
@@ -673,7 +673,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "glm-5": {
       "leaderboard": "text",
@@ -693,7 +693,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "deepseek-v4-pro": {
       "leaderboard": "text",
@@ -713,7 +713,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-sonnet-4-5-20250929-thinking-32k": {
       "leaderboard": "text",
@@ -733,7 +733,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-sonnet-4-5-20250929": {
       "leaderboard": "text",
@@ -753,7 +753,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "dola-seed-2.0-pro": {
       "leaderboard": "text",
@@ -773,7 +773,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.1-high": {
       "leaderboard": "text",
@@ -793,7 +793,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gemma-4-31b": {
       "leaderboard": "text",
@@ -813,7 +813,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "kimi-k2.5-thinking": {
       "leaderboard": "text",
@@ -833,7 +833,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "ernie-5.0-preview-1203": {
       "leaderboard": "text",
@@ -853,7 +853,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "claude-opus-4-1-20250805-thinking-16k": {
       "leaderboard": "text",
@@ -873,7 +873,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.3-chat-latest": {
       "leaderboard": "text",
@@ -893,7 +893,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "mimo-v2-pro": {
       "leaderboard": "text",
@@ -913,7 +913,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "minimax-m3": {
       "leaderboard": "code",
@@ -930,7 +930,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.4-mini-high": {
       "leaderboard": "text",
@@ -950,7 +950,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "qwen3.7-max-20260517": {
       "leaderboard": "code",
@@ -967,7 +967,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.5-xhigh (codex-harness)": {
       "leaderboard": "code",
@@ -984,7 +984,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "gpt-5.5-high (codex-harness)": {
       "leaderboard": "code",
@@ -1001,7 +1001,7 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     },
     "kimi-k2.7-code": {
       "leaderboard": "code",
@@ -1018,8 +1018,8 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-19T06:49:54.507702+00:00"
+      "fetchedAt": "2026-06-20T06:00:09.054839+00:00"
     }
   },
-  "generatedAt": "2026-06-19T10:27:25.671Z"
+  "generatedAt": "2026-06-20T08:58:14.705Z"
 }
