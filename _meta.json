@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-20T08:58:14.705Z",
+  "generatedAt": "2026-06-21T09:51:40.303Z",
   "arena": {
     "text": {
       "leaderboard": "text",
       "source_url": "https://arena.ai/leaderboard/text",
-      "fetched_at": "2026-06-20T06:00:09.054839+00:00",
-      "last_updated": "Jun 16, 2026",
-      "model_count": 50
+      "fetched_at": "2026-06-21T06:30:31.663942+00:00",
+      "last_updated": null,
+      "model_count": 30
     },
     "code": {
       "leaderboard": "code",
       "source_url": "https://arena.ai/leaderboard/code",
-      "fetched_at": "2026-06-20T06:00:09.054839+00:00",
+      "fetched_at": "2026-06-21T06:30:31.663942+00:00",
       "last_updated": "Jun 16, 2026",
       "model_count": 20
     }
   },
   "counts": {
     "modelsDevEntries": 364,
-    "arenaEntries": 54,
-    "matched": 107
+    "arenaEntries": 37,
+    "matched": 92
   },
   "sources": {
     "modelsDev": "https://models.dev",
