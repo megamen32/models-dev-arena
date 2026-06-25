@@ -261,6 +261,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-flash-lite-20260507/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -592,6 +604,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/mistralai/mistral-medium-3.5-20260430/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.2186,
+          "length_controlled": 0.2861,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -4935,6 +4959,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-flash-lite-preview-20260303/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -5049,6 +5085,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-flash-image-preview-20260226/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -5428,6 +5476,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-pro-preview-customtools-20260219/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -5623,6 +5683,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-pro-preview-20260219/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -7474,6 +7546,19 @@
         "lastUpdated": "Jun 16, 2026",
         "sourceUrl": "https://arena.ai/leaderboard/text",
         "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      },
+      "benchmarks": {
+        "sources": [
+          "arena",
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -9039,6 +9124,19 @@
         "lastUpdated": "Jun 16, 2026",
         "sourceUrl": "https://arena.ai/leaderboard/text",
         "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      },
+      "benchmarks": {
+        "sources": [
+          "arena",
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -10750,6 +10848,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-flash-image/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -11338,6 +11448,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-flash-lite-preview-09-2025/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -12782,6 +12904,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/mistralai/mistral-medium-3.1/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.2186,
+          "length_controlled": 0.2861,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -14470,6 +14604,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-flash-lite/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -15337,6 +15483,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-flash/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -15401,6 +15559,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-pro/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -15666,6 +15836,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-pro-preview-06-05/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -15991,6 +16173,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/mistralai/mistral-medium-3/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.2186,
+          "length_controlled": 0.2861,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -16055,6 +16249,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-pro-preview-03-25/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -18084,6 +18290,18 @@
       "expiration_date": "2026-06-01",
       "links": {
         "details": "/api/v1/models/google/gemini-2.0-flash-lite-001/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -18300,6 +18518,18 @@
       "expiration_date": "2026-06-01",
       "links": {
         "details": "/api/v1/models/google/gemini-2.0-flash-001/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -19852,6 +20082,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/anthropic/claude-3-5-haiku/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1699,
+          "length_controlled": 0.2729,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -21336,6 +21578,19 @@
         "lastUpdated": "Jun 16, 2026",
         "sourceUrl": "https://arena.ai/leaderboard/text",
         "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      },
+      "benchmarks": {
+        "sources": [
+          "arena",
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.5133,
+          "length_controlled": 0.5746,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -21687,6 +21942,19 @@
         "lastUpdated": "Jun 16, 2026",
         "sourceUrl": "https://arena.ai/leaderboard/text",
         "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      },
+      "benchmarks": {
+        "sources": [
+          "arena",
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.4612,
+          "length_controlled": 0.5502,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -21736,6 +22004,18 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/anthropic/claude-3-haiku/endpoints"
+      },
+      "benchmarks": {
+        "sources": [
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.1699,
+          "length_controlled": 0.2729,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {
@@ -21863,6 +22143,19 @@
         "lastUpdated": "Jun 16, 2026",
         "sourceUrl": "https://arena.ai/leaderboard/text",
         "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      },
+      "benchmarks": {
+        "sources": [
+          "arena",
+          "alpaca_lc"
+        ],
+        "alpaca_lc": {
+          "winrate": 0.141,
+          "length_controlled": 0.2235,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
       }
     },
     {

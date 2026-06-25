@@ -8,16 +8,32 @@
  * and writes the per-model intelligence into a new `arena` field on every
  * models.json entry whose name matches an Arena model.
  *
- * A side artifact `models-arena.json` is also written: a flat lookup of
- * every Arena entry keyed by `id` (model.dev style), with the same
- * normalized data — handy for clients that want the leaderboard without
- * walking the full models.json.
+ * Also pulls AlpacaEval 2.0 length-controlled winrate as a SECOND text-quality
+ * source — this gives coverage to ~220 models instead of Arena's ~70.
+ * Each entry carries an explicit `sources: [...]` array so consumers can tell
+ * exactly where every score came from.
+ *
+ * Outputs:
+ *   - `models.json`         — gains `arena` and/or `benchmarks` field per entry
+ *   - `models-arena.json`   — flat lookup keyed by Arena name, every entry has
+ *                              an explicit `sources: [...]` array (including
+ *                              alpaca-only models that have no Arena match)
+ *   - `_meta.json`          — per-source provenance (fetchedAt, count, URL)
  *
  * Run from the repo root: `bun packages/core/script/sync-arena.ts`.
  */
 
 import { writeFileSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import {
+  fetchAlpacaLC,
+  buildAlpacaMap,
+  findAlpacaMatch,
+  normalizeBenchmarkKey,
+  ALPACA_LC_URL,
+  type AlpacaLCEntry,
+  type BenchmarkAttach,
+} from "./sync-benchmarks";
 
 const ARENA_BASE = "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard";
 const CATEGORIES_TO_FETCH = ["text", "code"] as const;
@@ -222,6 +238,8 @@ function main() {
     console.log(`[models] loaded ${models.length} model entries`);
 
     const arena = await fetchArena();
+    const alpacaEntries = await fetchAlpacaLC();
+    const alpacaByKey = buildAlpacaMap(alpacaEntries);
 
     // Build lookup map of normalized Arena name → entry
     const arenaByName = new Map<string, ArenaEntryNormalized[]>();
@@ -241,8 +259,10 @@ function main() {
       }
     }
 
-    // Flat lookup artifact: one entry per (model, leaderboard) pair.
-    const flat: Record<string, ArenaAttach> = {};
+    // Flat lookup artifact: one entry per (model, leaderboard) pair PLUS
+    // alpaca-only models that have no Arena equivalent.
+    type FlatEntry = ArenaAttach & { sources: string[]; benchmarks?: Record<string, unknown> };
+    const flat: Record<string, FlatEntry> = {};
     for (const cat of CATEGORIES_TO_FETCH) {
       const lb = arena[cat];
       if (!lb) continue;
@@ -251,13 +271,46 @@ function main() {
       const maxElo = Math.max(...scores);
       for (const m of lb.models) {
         const e = buildEntry(cat, m, minElo, maxElo, lb.meta);
-        flat[m.model.toLowerCase()] = e.attach;
+        flat[m.model.toLowerCase()] = { ...e.attach, sources: ["arena"] };
       }
+    }
+
+    // Add alpaca-only entries to the flat map, keyed by their original rawKey.
+    let alpacaOnlyAdded = 0;
+    for (const ap of alpacaEntries) {
+      const key = ap.rawKey.toLowerCase();
+      if (flat[key]) continue;
+      flat[key] = {
+        leaderboard: "text" as const, // alpaca_lc is text-only
+        rank: 0,
+        elo: 0,
+        ci: Math.round(ap.standardError * 100) / 100,
+        votes: ap.nTotal,
+        vendor: "",
+        license: "",
+        score: Math.round(ap.lengthControlledWinrate * 10000) / 10000,
+        confidence: ap.nTotal >= 5000 ? "high" : ap.nTotal >= 1000 ? "medium" : "low",
+        categories: ["default", "review", "documentation", "debugging"],
+        sources: ["alpaca_lc"],
+        benchmarks: {
+          alpaca_lc: {
+            winrate: Math.round(ap.rawWinrate * 10000) / 10000,
+            length_controlled: Math.round(ap.lengthControlledWinrate * 10000) / 10000,
+            n_total: ap.nTotal,
+            mode: ap.mode,
+            source: "https://tatsu-lab.github.io/alpaca_eval/",
+          },
+        },
+      };
+      alpacaOnlyAdded++;
     }
     const now = new Date().toISOString();
     const arenaMeta = { arena: flat, generatedAt: now };
     writeFileSync(outPath, JSON.stringify(arenaMeta, null, 2));
-    console.log(`[models-arena.json] wrote ${Object.keys(flat).length} entries → ${outPath}`);
+    console.log(
+      `[models-arena.json] wrote ${Object.keys(flat).length} entries ` +
+      `(${alpacaOnlyAdded} alpaca-only) → ${outPath}`
+    );
 
     // _meta.json — tiny status file for GitHub Pages consumers / status badges.
     const meta = {
@@ -266,31 +319,71 @@ function main() {
         text: arena.text?.meta ?? null,
         code: arena.code?.meta ?? null,
       },
+      benchmarks: {
+        alpaca_lc: {
+          fetchedAt: now,
+          modelCount: alpacaEntries.length,
+          uniqueKeys: alpacaByKey.size,
+          source: ALPACA_LC_URL,
+          public_url: "https://tatsu-lab.github.io/alpaca_eval/",
+          metric: "length_controlled_winrate",
+          correlation_with_arena: 0.98,
+        },
+      },
       counts: {
         modelsDevEntries: models.length,
         arenaEntries: Object.keys(flat).length,
+        arenaOnly: Object.values(flat).filter((f) => f.sources.length === 1 && f.sources[0] === "arena").length,
+        alpacaOnly: alpacaOnlyAdded,
         matched: 0, // filled in below
       },
       sources: {
         modelsDev: "https://models.dev",
         arena: "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard",
+        alpaca_lc: "https://tatsu-lab.github.io/alpaca_eval/",
         fork: "https://github.com/megamen32/models-dev-arena",
         pages: "https://megamen32.github.io/models-dev-arena/",
       },
     };
     const metaPath = resolve(root, "_meta.json");
 
-    // Attach `arena` field to each models.dev entry.
+    // Attach `arena` and/or `benchmarks` fields to each models.dev entry.
     let matched = 0;
+    let withAlpaca = 0;
     for (const m of models) {
-      const match = findMatch(m.id, arenaByName);
-      if (match) {
-        m.arena = match.attach;
-        matched++;
+      const arenaMatch = findMatch(m.id, arenaByName);
+      const modelKey = normalizeModelsDevId(m.id);
+      const alpacaMatch = findAlpacaMatch(modelKey, alpacaByKey);
+
+      const sources: string[] = [];
+      if (arenaMatch) {
+        m.arena = arenaMatch.attach;
+        sources.push("arena");
       }
+      if (alpacaMatch) {
+        const bench: BenchmarkAttach = {
+          sources,
+          alpaca_lc: {
+            winrate: Math.round(alpacaMatch.rawWinrate * 10000) / 10000,
+            length_controlled: Math.round(alpacaMatch.lengthControlledWinrate * 10000) / 10000,
+            n_total: alpacaMatch.nTotal,
+            mode: alpacaMatch.mode,
+            source: "https://tatsu-lab.github.io/alpaca_eval/",
+          },
+        };
+        bench.sources = [...sources, "alpaca_lc"];
+        m.benchmarks = bench;
+        sources.push("alpaca_lc");
+        withAlpaca++;
+      }
+      if (sources.length > 0) matched++;
     }
     meta.counts.matched = matched;
-    console.log(`[models.json] attached arena to ${matched}/${models.length} entries`);
+    meta.counts.withAlpaca = withAlpaca;
+    console.log(
+      `[models.json] attached arena to ${matched - withAlpaca}/${models.length} entries, ` +
+      `alpaca_lc to ${withAlpaca}/${models.length}`
+    );
 
     writeFileSync(modelsPath, JSON.stringify(data, null, 2));
     console.log(`[models.json] updated in place → ${modelsPath}`);

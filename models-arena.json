@@ -15,7 +15,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-6-thinking": {
       "leaderboard": "code",
@@ -32,7 +35,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-7-thinking": {
       "leaderboard": "code",
@@ -49,7 +55,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-6": {
       "leaderboard": "code",
@@ -66,7 +75,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-7": {
       "leaderboard": "code",
@@ -83,7 +95,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "muse-spark": {
       "leaderboard": "text",
@@ -103,7 +118,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemini-3.1-pro-preview": {
       "leaderboard": "code",
@@ -120,7 +138,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemini-3-pro": {
       "leaderboard": "code",
@@ -137,7 +158,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-8-thinking": {
       "leaderboard": "code",
@@ -154,7 +178,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5-high": {
       "leaderboard": "text",
@@ -174,7 +201,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.4-high": {
       "leaderboard": "text",
@@ -194,7 +224,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-8": {
       "leaderboard": "code",
@@ -211,7 +244,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemini-3.5-flash": {
       "leaderboard": "code",
@@ -228,7 +264,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.2-chat-latest-20260210": {
       "leaderboard": "text",
@@ -248,7 +287,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "glm-5.1": {
       "leaderboard": "code",
@@ -265,7 +307,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5": {
       "leaderboard": "text",
@@ -285,7 +330,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.7-max-preview": {
       "leaderboard": "text",
@@ -305,7 +353,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "grok-4.20-beta-0309-reasoning": {
       "leaderboard": "code",
@@ -322,7 +373,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "grok-4.20-beta1": {
       "leaderboard": "text",
@@ -342,7 +396,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemini-3-flash": {
       "leaderboard": "code",
@@ -359,7 +416,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-5-20251101-thinking-32k": {
       "leaderboard": "code",
@@ -376,7 +436,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5-instant": {
       "leaderboard": "text",
@@ -396,7 +459,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "grok-4.20-multi-agent-beta-0309": {
       "leaderboard": "text",
@@ -416,7 +482,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-sonnet-4-6": {
       "leaderboard": "code",
@@ -433,7 +502,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "glm-5.2 (max)": {
       "leaderboard": "code",
@@ -450,7 +522,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-5-20251101": {
       "leaderboard": "code",
@@ -467,7 +542,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.4": {
       "leaderboard": "code",
@@ -484,7 +562,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "ernie-5.1": {
       "leaderboard": "text",
@@ -504,7 +585,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "mimo-v2.5-pro": {
       "leaderboard": "code",
@@ -521,7 +605,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "grok-4.1-thinking": {
       "leaderboard": "text",
@@ -541,7 +628,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.5-max-preview": {
       "leaderboard": "text",
@@ -561,7 +651,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.6-max-preview": {
       "leaderboard": "code",
@@ -578,7 +671,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemini-3-flash (thinking-minimal)": {
       "leaderboard": "code",
@@ -595,7 +691,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "kimi-k2.6": {
       "leaderboard": "code",
@@ -612,7 +711,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "grok-4.1": {
       "leaderboard": "text",
@@ -632,7 +734,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "deepseek-v4-pro-thinking": {
       "leaderboard": "code",
@@ -649,7 +754,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "glm-5": {
       "leaderboard": "code",
@@ -666,7 +774,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "deepseek-v4-pro": {
       "leaderboard": "text",
@@ -686,7 +797,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-sonnet-4-5-20250929-thinking-32k": {
       "leaderboard": "code",
@@ -703,7 +817,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-sonnet-4-5-20250929": {
       "leaderboard": "code",
@@ -720,7 +837,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "dola-seed-2.0-pro": {
       "leaderboard": "text",
@@ -740,7 +860,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.1-high": {
       "leaderboard": "text",
@@ -760,7 +883,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gemma-4-31b": {
       "leaderboard": "text",
@@ -780,7 +906,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "kimi-k2.5-thinking": {
       "leaderboard": "code",
@@ -797,7 +926,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "ernie-5.0-preview-1203": {
       "leaderboard": "text",
@@ -817,7 +949,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-1-20250805-thinking-16k": {
       "leaderboard": "text",
@@ -837,7 +972,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.3-chat-latest": {
       "leaderboard": "text",
@@ -857,7 +995,10 @@
       ],
       "lastUpdated": "Jun 16, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "mimo-v2-pro": {
       "leaderboard": "code",
@@ -874,7 +1015,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "minimax-m3": {
       "leaderboard": "code",
@@ -891,7 +1035,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.4-mini-high": {
       "leaderboard": "code",
@@ -908,7 +1055,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "seed-2.1-pro-preview": {
       "leaderboard": "code",
@@ -925,7 +1075,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.7-max-20260517": {
       "leaderboard": "code",
@@ -942,7 +1095,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5-xhigh (codex-harness)": {
       "leaderboard": "code",
@@ -959,7 +1115,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5-high (codex-harness)": {
       "leaderboard": "code",
@@ -976,7 +1135,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "kimi-k2.7-code": {
       "leaderboard": "code",
@@ -993,7 +1155,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.6-plus": {
       "leaderboard": "code",
@@ -1010,7 +1175,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.4-high (codex-harness)": {
       "leaderboard": "code",
@@ -1027,7 +1195,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.5 (codex-harness)": {
       "leaderboard": "code",
@@ -1044,7 +1215,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "glm-4.7": {
       "leaderboard": "code",
@@ -1061,7 +1235,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.4-medium (codex-harness)": {
       "leaderboard": "code",
@@ -1078,7 +1255,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "mimo-v2.5": {
       "leaderboard": "code",
@@ -1095,7 +1275,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "kimi-k2.5-instant": {
       "leaderboard": "code",
@@ -1112,7 +1295,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.3-codex (codex-harness)": {
       "leaderboard": "code",
@@ -1129,7 +1315,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.2": {
       "leaderboard": "code",
@@ -1146,7 +1335,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "minimax-m2.7": {
       "leaderboard": "code",
@@ -1163,7 +1355,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "qwen3.5-397b-a17b": {
       "leaderboard": "code",
@@ -1180,7 +1375,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5-medium": {
       "leaderboard": "code",
@@ -1197,7 +1395,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "minimax-m2.1-preview": {
       "leaderboard": "code",
@@ -1214,7 +1415,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "gpt-5.1-medium": {
       "leaderboard": "code",
@@ -1231,7 +1435,10 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
     },
     "claude-opus-4-1-20250805": {
       "leaderboard": "code",
@@ -1248,8 +1455,6478 @@
       ],
       "lastUpdated": null,
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-06-25T05:48:22.686994+00:00"
+      "fetchedAt": "2026-06-25T05:48:22.686994+00:00",
+      "sources": [
+        "arena"
+      ]
+    },
+    "nullmodel": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.14,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.8646,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.7692,
+          "length_controlled": 0.8646,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "selfmoa_gemma-2-9b-it-wpo-hb": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.3,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7854,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.7759,
+          "length_controlled": 0.7854,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "shopee-slimmoa-v1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.43,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7745,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.7561,
+          "length_controlled": 0.7745,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "blendaxai-gm-l6-vo31": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.57,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7692,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6911,
+          "length_controlled": 0.7692,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemma-2-9b-it-wpo-hb": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.42,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7673,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.7783,
+          "length_controlled": 0.7673,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "selfmoa_gemma-2-9b-it-simpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.44,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7505,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.72,
+          "length_controlled": 0.7505,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "blendaxai-gm-l3-v35": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.62,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7337,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.7341,
+          "length_controlled": 0.7337,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemma-2-9b-it-simpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.52,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7235,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6586,
+          "length_controlled": 0.7235,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "toa": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.64,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7215,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6905,
+          "length_controlled": 0.7215,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fusechat-gemma-2-9b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.59,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.7018,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.705,
+          "length_controlled": 0.7018,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openpipe-moa-gpt-4-turbo-v1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.73,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6838,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6315,
+          "length_controlled": 0.6838,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemma-2-9b-it-dpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.66,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6766,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6536,
+          "length_controlled": 0.6766,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fusechat-llama-3.1-8b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.67,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6539,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6333,
+          "length_controlled": 0.6539,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "together-moa": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.74,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6538,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5987,
+          "length_controlled": 0.6538,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fusechat-qwen-2.5-7b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.62,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6358,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6464,
+          "length_controlled": 0.6358,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama3-pbm-nova-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.76,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6239,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6295,
+          "length_controlled": 0.6239,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "storm-7b-best-of-64": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.6164,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6304,
+          "length_controlled": 0.6164,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "together-moa-lite": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.76,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5914,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5659,
+          "length_controlled": 0.5914,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "aligner-2b_gpt-4-turbo-2024-04-09": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5833,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4677,
+          "length_controlled": 0.5833,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-4o-2024-05-13": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5746,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5133,
+          "length_controlled": 0.5746,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "higgs-llama-3-70b-v2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.86,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5676,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.6864,
+          "length_controlled": 0.5676,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-4-turbo-2024-04-09": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5502,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4612,
+          "length_controlled": 0.5502,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fusechat-llama-3.2-3b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.69,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.54,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.513,
+          "length_controlled": 0.54,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "sppo-gemma-2-9b-it-pairrm": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.65,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5397,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4823,
+          "length_controlled": 0.5397,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-3-instruct-8b-wpo-hb-v2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.71,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5337,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5733,
+          "length_controlled": 0.5337,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-3-5-sonnet-20240620": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5237,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4056,
+          "length_controlled": 0.5237,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "yi-large-preview": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5189,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5747,
+          "length_controlled": 0.5189,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-3-instruct-8b-rainbowpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.78,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5166,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4792,
+          "length_controlled": 0.5166,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_1106_preview_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5158,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.643,
+          "length_controlled": 0.5158,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.83,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5073,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4465,
+          "length_controlled": 0.5073,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "storm-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5045,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5027,
+          "length_controlled": 0.5045,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_1106_preview": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.5,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.5,
+          "length_controlled": 0.5,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "rebel-llama-3-8b-instruct-armo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.71,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4931,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4844,
+          "length_controlled": 0.4931,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-7m-gen-llama3_1-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.82,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.461,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3746,
+          "length_controlled": 0.461,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-3-instruct-8b-simpo-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4578,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4063,
+          "length_controlled": 0.4578,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-3-instruct-8b-simpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.88,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4465,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4053,
+          "length_controlled": 0.4465,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "nanbeige-plus-chat-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4446,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.567,
+          "length_controlled": 0.4446,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen1.5-110b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4391,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3378,
+          "length_controlled": 0.4391,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-3-8b-instruct-skillmix": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4276,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4463,
+          "length_controlled": 0.4276,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_1106_preview_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.419,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2292,
+          "length_controlled": 0.419,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "aligner-2b_claude-3-opus-20240229": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4182,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3446,
+          "length_controlled": 0.4182,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "nanbeige2-16b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.85,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4059,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3704,
+          "length_controlled": 0.4059,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-3-opus-20240229": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.4051,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2911,
+          "length_controlled": 0.4051,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-7m-gen-mistral-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.8,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3967,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3435,
+          "length_controlled": 0.3967,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "meta-llama-3.1-405b-instruct-turbo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.91,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3926,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3911,
+          "length_controlled": 0.3926,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "sppo-llama-3-instruct-8b-pairrm": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.87,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3856,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3967,
+          "length_controlled": 0.3856,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpo-llama-3-8b-instruct-gpm-2b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.8,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3843,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4887,
+          "length_controlled": 0.3843,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3813,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2358,
+          "length_controlled": 0.3813,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen2-72b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.9,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3807,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2985,
+          "length_controlled": 0.3807,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "meta-llama-3.1-70b-instruct-turbo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.9,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3806,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3913,
+          "length_controlled": 0.3806,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0625-llama3-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.82,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3798,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2428,
+          "length_controlled": 0.3798,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "aligner-2b_qwen1.5-72b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3673,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3177,
+          "length_controlled": 0.3673,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen1.5-72b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3657,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.265,
+          "length_controlled": 0.3657,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_0314": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3531,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2207,
+          "length_controlled": 0.3531,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "sppo-llama-3-8b-instruct-gpm-2b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.81,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.353,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4544,
+          "length_controlled": 0.353,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ein-70b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3503,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2484,
+          "length_controlled": 0.3503,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-3-sonnet-20240229": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3487,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2556,
+          "length_controlled": 0.3487,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fsfairx-zephyr-chat-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3479,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3595,
+          "length_controlled": 0.3479,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "meta-llama-3-70b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3442,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3318,
+          "length_controlled": 0.3442,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-7m-gen-llama3_1-8b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.85,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3392,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2853,
+          "length_controlled": 0.3392,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_0613_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3382,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2324,
+          "length_controlled": 0.3382,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-large-2402": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3265,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2144,
+          "length_controlled": 0.3265,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "sppo-mistral7b-pairrm-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3182,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3544,
+          "length_controlled": 0.3182,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "merlinite-7b-aot": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.82,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3172,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.299,
+          "length_controlled": 0.3172,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0613-llama3-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.77,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3153,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1927,
+          "length_controlled": 0.3153,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "samba-coe-v0.2-best-of-16": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3151,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2699,
+          "length_controlled": 0.3151,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0625-mistral-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.8,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3142,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2109,
+          "length_controlled": 0.3142,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "rebel-llama-3-8b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.314,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3431,
+          "length_controlled": 0.314,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mixtral-8x22b-instruct-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3088,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2221,
+          "length_controlled": 0.3088,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "sppo-mistral7b-pairrm": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3049,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3225,
+          "length_controlled": 0.3049,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-2.1_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3029,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2435,
+          "length_controlled": 0.3029,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_0613": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.3018,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1576,
+          "length_controlled": 0.3018,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "snorkel-mistral-pairrm-dpo-best-of-16": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2997,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3486,
+          "length_controlled": 0.2997,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "contextual-kto-mistral-pairrm": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2971,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3323,
+          "length_controlled": 0.2971,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "pairrm-yi-34b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2881,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3124,
+          "length_controlled": 0.2881,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-medium": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2861,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2186,
+          "length_controlled": 0.2861,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2816,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1719,
+          "length_controlled": 0.2816,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "samba-coe-v0.2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2762,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2185,
+          "length_controlled": 0.2762,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0625-llama3-8b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.76,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2752,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1936,
+          "length_controlled": 0.2752,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2729,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1699,
+          "length_controlled": 0.2729,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "internlm2-chat-20b-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2723,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.4619,
+          "length_controlled": 0.2723,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "yi-34b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2719,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2966,
+          "length_controlled": 0.2719,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "starling-lm-7b-beta-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2641,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.296,
+          "length_controlled": 0.2641,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "snorkel-mistral-pairrm-dpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.2639,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3022,
+          "length_controlled": 0.2639,
+          "n_total": 804,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-70b-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2572,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2298,
+          "length_controlled": 0.2572,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-instant-1.2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2561,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1613,
+          "length_controlled": 0.2561,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0613-mistral-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.255,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1575,
+          "length_controlled": 0.255,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "dbrx-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2538,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1845,
+          "length_controlled": 0.2538,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "fusechat-llama-3.2-1b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.64,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2527,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2992,
+          "length_controlled": 0.2527,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-2.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2525,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1573,
+          "length_controlled": 0.2525,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "nanbeige2-8b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2524,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.3935,
+          "length_controlled": 0.2524,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "xwinlm-70b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2465,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2181,
+          "length_controlled": 0.2465,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemini-pro": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2438,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.2438,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen1.5-14b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.239,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1865,
+          "length_controlled": 0.239,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mixtral-8x7b-instruct-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2369,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1826,
+          "length_controlled": 0.2369,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "evo-v2-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2336,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2083,
+          "length_controlled": 0.2336,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mixtral-8x7b-instruct-v0.1_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2322,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2461,
+          "length_controlled": 0.2322,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ghost-8b-beta-disl-0x5": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.59,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2312,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2914,
+          "length_controlled": 0.2312,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mixtral-8x7b-instruct-v0.1_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2296,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1374,
+          "length_controlled": 0.2296,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "meta-llama-3-8b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.85,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2292,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2257,
+          "length_controlled": 0.2292,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "samba-coe-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2287,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1684,
+          "length_controlled": 0.2287,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-16k-0613": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2272,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1413,
+          "length_controlled": 0.2272,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "internlm2-chat-7b-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2267,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2807,
+          "length_controlled": 0.2267,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-0613": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2235,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.141,
+          "length_controlled": 0.2235,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-1106_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.22,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1276,
+          "length_controlled": 0.22,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0625-qwen2-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.7,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2187,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1532,
+          "length_controlled": 0.2187,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_0613_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2158,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.094,
+          "length_controlled": 0.2158,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "pairrm-tulu-2-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2143,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1864,
+          "length_controlled": 0.2143,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2124,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1598,
+          "length_controlled": 0.2124,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "meta-llama-3.1-8b-instruct-turbo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.7,
+      "votes": 802,
+      "vendor": "",
+      "license": "",
+      "score": 0.2085,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2184,
+          "length_controlled": 0.2085,
+          "n_total": 802,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-7b-instruct-v0.3": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.78,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2061,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1669,
+          "length_controlled": 0.2061,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-7b-remax-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2055,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.16,
+          "length_controlled": 0.2055,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "infinity-instruct-3m-0625-yi-1.5-9b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.64,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.2054,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.162,
+          "length_controlled": 0.2054,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "starling-lm-7b-alpha-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1947,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1818,
+          "length_controlled": 0.1947,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-1106": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.193,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0918,
+          "length_controlled": 0.193,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "lmcocktail-10.7b-v1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1895,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1315,
+          "length_controlled": 0.1895,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "internlm2-chat-20b-ppo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1875,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.2175,
+          "length_controlled": 0.1875,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude-2.1_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1821,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0923,
+          "length_controlled": 0.1821,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-0301": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1809,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0962,
+          "length_controlled": 0.1809,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "xwinlm-13b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1792,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1743,
+          "length_controlled": 0.1792,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "deepseek-llm-67b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1784,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1209,
+          "length_controlled": 0.1784,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt35_turbo_instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.1773,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0846,
+          "length_controlled": 0.1773,
+          "n_total": 804,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-13b-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1759,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1555,
+          "length_controlled": 0.1759,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "wizardlm-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1758,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1438,
+          "length_controlled": 0.1758,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-33b-v1.3": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1757,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1271,
+          "length_controlled": 0.1757,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "pairrm-tulu-2-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1741,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1383,
+          "length_controlled": 0.1741,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "conifer-7b-dpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1711,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1131,
+          "length_controlled": 0.1711,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-7b-instruct-v0.2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1711,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1472,
+          "length_controlled": 0.1711,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "evo-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1649,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1558,
+          "length_controlled": 0.1649,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "humpback-llama2-70b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1625,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1012,
+          "length_controlled": 0.1625,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openhermes-2.5-mistral-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1625,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1034,
+          "length_controlled": 0.1625,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "deita-7b-v1.0": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1606,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1265,
+          "length_controlled": 0.1606,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "jina-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1587,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0779,
+          "length_controlled": 0.1587,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tempnet-llama2-chat-70b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.1583,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1505,
+          "length_controlled": 0.1583,
+          "n_total": 804,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt-3.5-turbo-1106_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1577,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0742,
+          "length_controlled": 0.1577,
+          "n_total": 805,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "causallm-14b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1572,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1115,
+          "length_controlled": 0.1572,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "pairrm-zephyr-7b-beta": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1553,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1284,
+          "length_controlled": 0.1553,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen1.5-7b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1475,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1177,
+          "length_controlled": 0.1475,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "mistral-orpo-beta": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1472,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1257,
+          "length_controlled": 0.1472,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "starling-lm-7b-alpha": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1469,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1425,
+          "length_controlled": 0.1469,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-2-70b-chat-hf": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.1469,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1389,
+          "length_controlled": 0.1469,
+          "n_total": 804,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openchat-v3.1-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.145,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1108,
+          "length_controlled": 0.145,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "wizardlm-13b-v1.2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1446,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1203,
+          "length_controlled": 0.1446,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ultralm-13b-v2.0-best-of-16": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.142,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1385,
+          "length_controlled": 0.142,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "zephyr-7b-beta-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.14,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1106,
+          "length_controlled": 0.14,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "wizardlm-13b-v1.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1392,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1123,
+          "length_controlled": 0.1392,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "zephyr-7b-alpha-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1357,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1056,
+          "length_controlled": 0.1357,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "zephyr-7b-beta": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.132,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1099,
+          "length_controlled": 0.132,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "dolphin-2.2.1-mistral-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1312,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0904,
+          "length_controlled": 0.1312,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "humpback-llama-65b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.128,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0943,
+          "length_controlled": 0.128,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-llama2-70b-v10.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1257,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.081,
+          "length_controlled": 0.1257,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-llama-65b-v8": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1247,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0877,
+          "length_controlled": 0.1247,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen-14b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1238,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.075,
+          "length_controlled": 0.1238,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gpt4_gamed": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1219,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0374,
+          "length_controlled": 0.1219,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "cut-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1215,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1078,
+          "length_controlled": 0.1215,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openchat-v2-w-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1203,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0962,
+          "length_controlled": 0.1203,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-13b-v1.5-togetherai": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0.62,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1169,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0696,
+          "length_controlled": 0.1169,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-7b-expo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1168,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1153,
+          "length_controlled": 0.1168,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1155,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1012,
+          "length_controlled": 0.1155,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "claude2-alpaca-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.115,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0744,
+          "length_controlled": 0.115,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "minotaur-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.1147,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0574,
+          "length_controlled": 0.1147,
+          "n_total": 804,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "airoboros-65b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1101,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0939,
+          "length_controlled": 0.1101,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "cohere": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1089,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.129,
+          "length_controlled": 0.1089,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-13b-v1.3": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1084,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0714,
+          "length_controlled": 0.1084,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "xwinlm-7b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1081,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1125,
+          "length_controlled": 0.1081,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "airoboros-33b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1072,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0905,
+          "length_controlled": 0.1072,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "platolm-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 803,
+      "vendor": "",
+      "license": "",
+      "score": 0.1054,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0632,
+          "length_controlled": 0.1054,
+          "n_total": 803,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-13b-v1.5": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1048,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0672,
+          "length_controlled": 0.1048,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemma-7b-it": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1043,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0694,
+          "length_controlled": 0.1043,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openchat-v2-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.104,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0844,
+          "length_controlled": 0.104,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "zephyr-7b-alpha": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1029,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0835,
+          "length_controlled": 0.1029,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-llama-30b-v7.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.1021,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0613,
+          "length_controlled": 0.1021,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ultralm-13b-best-of-16": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0988,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.1131,
+          "length_controlled": 0.0988,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "oasst-sft-llama-33b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0987,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0477,
+          "length_controlled": 0.0987,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "wizardlm-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0983,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0588,
+          "length_controlled": 0.0983,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "nous-hermes-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0972,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0541,
+          "length_controlled": 0.0972,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0922,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0583,
+          "length_controlled": 0.0922,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tulu-2-dpo-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.092,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.082,
+          "length_controlled": 0.092,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-llama2-13b-v11.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0916,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0617,
+          "length_controlled": 0.0916,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ultralm-13b-v2.0": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0913,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.075,
+          "length_controlled": 0.0913,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "text_davinci_001": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 803,
+      "vendor": "",
+      "license": "",
+      "score": 0.0903,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0276,
+          "length_controlled": 0.0903,
+          "n_total": 803,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-falcon-40b-v9": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0899,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0596,
+          "length_controlled": 0.0899,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openchat-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0881,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0802,
+          "length_controlled": 0.0881,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tempnet-llama2-chat-13b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0858,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0773,
+          "length_controlled": 0.0858,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-2-13b-chat-hf": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0844,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.077,
+          "length_controlled": 0.0844,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "guanaco-65b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0825,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0686,
+          "length_controlled": 0.0825,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "opencoderplus-15b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0815,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0741,
+          "length_controlled": 0.0815,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "oasst-rlhf-llama-33b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0797,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.063,
+          "length_controlled": 0.0797,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openchat8192-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.079,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0747,
+          "length_controlled": 0.079,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "phi-2-dpo": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0777,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0776,
+          "length_controlled": 0.0777,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "minichat-1.5-3b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.077,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0655,
+          "length_controlled": 0.077,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-7b-v1.5": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0762,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.048,
+          "length_controlled": 0.0762,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-2-chat-7b-evol70k-neft": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0753,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.076,
+          "length_controlled": 0.0753,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "recycled-wizardlm-7b-v2.0": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0752,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0734,
+          "length_controlled": 0.0752,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-7b-v1.3": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0716,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0464,
+          "length_controlled": 0.0716,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "alpaca-farm-ppo-sim-gpt4-20k": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0712,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0345,
+          "length_controlled": 0.0712,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ultralm-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0711,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0507,
+          "length_controlled": 0.0711,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "baize-v2-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0701,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0459,
+          "length_controlled": 0.0701,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "recycled-wizardlm-7b-v1.0": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.069,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0663,
+          "length_controlled": 0.069,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "ghost-7b-alpha": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 801,
+      "vendor": "",
+      "license": "",
+      "score": 0.0685,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0611,
+          "length_controlled": 0.0685,
+          "n_total": 801,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "alpaca-7b_verbose": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 802,
+      "vendor": "",
+      "license": "",
+      "score": 0.0682,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0293,
+          "length_controlled": 0.0682,
+          "n_total": 802,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "alpaca-farm-ppo-human": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0642,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.041,
+          "length_controlled": 0.0642,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "vicuna-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0628,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0416,
+          "length_controlled": 0.0628,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "alpaca-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0588,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0259,
+          "length_controlled": 0.0588,
+          "n_total": 805,
+          "mode": "minimal",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "phi-2-sft": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0585,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0398,
+          "length_controlled": 0.0585,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "tempnet-llama2-chat-7b-v0.1": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0574,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0543,
+          "length_controlled": 0.0574,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "minichat-3b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0573,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0301,
+          "length_controlled": 0.0573,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "guanaco-33b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0569,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.05,
+          "length_controlled": 0.0569,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "falcon-40b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0561,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0334,
+          "length_controlled": 0.0561,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "gemma-2b-it": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0544,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.034,
+          "length_controlled": 0.0544,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "llama-2-7b-chat-hf": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0535,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0496,
+          "length_controlled": 0.0535,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "openbuddy-falcon-7b-v6": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0483,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0352,
+          "length_controlled": 0.0483,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "alpaca-7b_concise": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.0447,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0199,
+          "length_controlled": 0.0447,
+          "n_total": 804,
+          "mode": "dev",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "phi-2": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 803,
+      "vendor": "",
+      "license": "",
+      "score": 0.044,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0235,
+          "length_controlled": 0.044,
+          "n_total": 803,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "baize-v2-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0438,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.034,
+          "length_controlled": 0.0438,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "chatglm2-6b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0436,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0276,
+          "length_controlled": 0.0436,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "pythia-12b-mix-sft": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0422,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0258,
+          "length_controlled": 0.0422,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "falcon-7b-instruct": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0404,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0215,
+          "length_controlled": 0.0404,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "oasst-sft-pythia-12b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0327,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0179,
+          "length_controlled": 0.0327,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "guanaco-13b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.03,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0347,
+          "length_controlled": 0.03,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "guanaco-7b": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0287,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0288,
+          "length_controlled": 0.0287,
+          "n_total": 805,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "qwen1.5-1.8b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 804,
+      "vendor": "",
+      "license": "",
+      "score": 0.0259,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0371,
+          "length_controlled": 0.0259,
+          "n_total": 804,
+          "mode": "verified",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
+    },
+    "baichuan-13b-chat": {
+      "leaderboard": "text",
+      "rank": 0,
+      "elo": 0,
+      "ci": 0,
+      "votes": 805,
+      "vendor": "",
+      "license": "",
+      "score": 0.0206,
+      "confidence": "low",
+      "categories": [
+        "default",
+        "review",
+        "documentation",
+        "debugging"
+      ],
+      "sources": [
+        "alpaca_lc"
+      ],
+      "benchmarks": {
+        "alpaca_lc": {
+          "winrate": 0.0199,
+          "length_controlled": 0.0206,
+          "n_total": 805,
+          "mode": "community",
+          "source": "https://tatsu-lab.github.io/alpaca_eval/"
+        }
+      }
     }
   },
-  "generatedAt": "2026-06-25T06:36:11.940Z"
+  "generatedAt": "2026-06-25T08:52:21.638Z"
 }
