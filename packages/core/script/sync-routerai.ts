@@ -70,12 +70,45 @@ async function fetchRouterAICatalog(): Promise<RouterAIModel[]> {
 }
 
 async function fetchUsdRubRate(): Promise<number> {
-  // Try a few public FX endpoints; fall back to a hardcoded rate.
-  const endpoints = [
+  // Primary: official Central Bank of Russia daily rates (XML).
+  // CBR is the user's reference for RUB conversion, so it takes priority
+  // over commercial FX aggregators. Source:
+  //   https://www.cbr-xml-daily.ru/daily_eng.xml
+  try {
+    const res = await fetch("https://www.cbr-xml-daily.ru/daily_eng.xml", {
+      headers: { Accept: "application/xml,text/xml,*/*" },
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (res.ok) {
+      // CBR serves windows-1251 — Bun's Response.text() will decode as UTF-8
+      // but the Cyrillic chars in <Name> are throwaway; only CharCode,
+      // Nominal, and VunitRate matter for parsing.
+      const xml = await res.text();
+      const usdBlock = xml.match(
+        /<CharCode>USD<\/CharCode>[\s\S]*?<\/Valute>/
+      );
+      if (usdBlock) {
+        const vunit = usdBlock[0].match(/<VunitRate>([0-9,]+)<\/VunitRate>/);
+        const nominal = usdBlock[0].match(/<Nominal>([0-9]+)<\/Nominal>/);
+        if (vunit && nominal) {
+          const rate = parseFloat(vunit[1].replace(",", ".")) / parseInt(nominal[1], 10);
+          if (Number.isFinite(rate) && rate > 0) {
+            console.log(`[routerai] USD/RUB rate (ЦБ РФ): ${rate}`);
+            return rate;
+          }
+        }
+      }
+    }
+  } catch (e) {
+    console.warn(`[routerai] CBR lookup failed: ${e instanceof Error ? e.message : e}`);
+  }
+
+  // Fallbacks: commercial FX APIs (less authoritative for RUB).
+  const fallbacks = [
     "https://api.exchangerate.host/latest?base=USD&symbols=RUB",
     "https://open.er-api.com/v6/latest/USD",
   ];
-  for (const url of endpoints) {
+  for (const url of fallbacks) {
     try {
       const res = await fetch(url, { signal: AbortSignal.timeout(10_000) });
       if (!res.ok) continue;
@@ -85,7 +118,7 @@ async function fetchUsdRubRate(): Promise<number> {
         data?.conversion_rates?.RUB ??
         data?.data?.rates?.RUB;
       if (typeof rate === "number" && rate > 0) {
-        console.log(`[routerai] USD/RUB rate: ${rate}`);
+        console.log(`[routerai] USD/RUB rate (fallback ${url}): ${rate}`);
         return rate;
       }
     } catch {
