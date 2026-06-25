@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T08:52:21.638Z",
+  "generatedAt": "2026-06-25T08:53:23.176Z",
   "arena": {
     "text": {
       "leaderboard": "text",
@@ -18,7 +18,7 @@
   },
   "benchmarks": {
     "alpaca_lc": {
-      "fetchedAt": "2026-06-25T08:52:21.638Z",
+      "fetchedAt": "2026-06-25T08:53:23.176Z",
       "modelCount": 223,
       "uniqueKeys": 219,
       "source": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
