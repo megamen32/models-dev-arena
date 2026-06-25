@@ -5,5 +5,5 @@
 base_model = "stepfun/step-3.5-flash"
 
 [cost]
-input = 0.1169
-output = 0.3897
+input = 0.117
+output = 0.39

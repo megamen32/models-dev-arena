@@ -32,7 +32,9 @@
     "ambient:generate": "bun ./packages/core/script/generate-ambient.ts",
     "models:sync": "bun ./packages/core/script/sync-models.ts",
     "arena:sync": "bun ./packages/core/script/sync-arena.ts",
-    "benchmarks:sync": "bun ./packages/core/script/sync-benchmarks.ts"
+    "benchmarks:sync": "bun ./packages/core/script/sync-benchmarks.ts",
+    "currency:sync": "bun ./packages/core/script/sync-currency.ts",
+    "routerai:sync": "bun ./packages/core/script/sync-routerai.ts"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20260424.1",

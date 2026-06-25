@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T09:51:27.409Z",
+  "generatedAt": "2026-06-25T11:27:13.980Z",
   "arena": {
     "text": {
       "leaderboard": "text",
@@ -18,24 +18,25 @@
   },
   "benchmarks": {
     "alpaca_lc": {
-      "fetchedAt": "2026-06-25T09:51:27.409Z",
+      "fetchedAt": "2026-06-25T11:27:13.980Z",
       "modelCount": 223,
       "uniqueKeys": 219,
       "source": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
       "public_url": "https://tatsu-lab.github.io/alpaca_eval/",
       "metric": "length_controlled_winrate",
       "correlation_with_arena": 0.98
-    },
-    "routerai": {
-      "fetchedAt": "2026-06-25T11:02:53.275Z",
-      "modelCount": 302,
-      "source": "https://routerai.ru/api/v1",
-      "public_url": "https://routerai.ru/models",
-      "doc": "https://routerai.ru/models",
-      "currency": "RUB",
-      "schema_version": "routerai-v1",
-      "usd_rub_rate": 74.838554
     }
+  },
+  "currency": {
+    "primary": "USD",
+    "rate_source": "cbr-xml-daily.ru/daily_eng.xml (Bank of Russia)",
+    "fallback_chain": [
+      "cbr-xml-daily.ru/daily_json.js",
+      "api.exchangerate.host",
+      "open.er-api.com"
+    ],
+    "rub_variant_url": "/models.json.rub.json",
+    "rub_query_param": "?currency=rub"
   },
   "counts": {
     "modelsDevEntries": 364,

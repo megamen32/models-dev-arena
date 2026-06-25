@@ -5,5 +5,5 @@
 base_model = "google/gemini-3-flash-preview"
 
 [cost]
-input = 0.6494
-output = 3.8966
+input = 0.65
+output = 3.9

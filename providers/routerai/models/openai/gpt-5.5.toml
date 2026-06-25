@@ -5,5 +5,5 @@
 base_model = "openai/gpt-5.5"
 
 [cost]
-input = 6.4944
-output = 38.9663
+input = 6.5
+output = 39

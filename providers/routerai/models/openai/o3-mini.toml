@@ -5,5 +5,5 @@
 base_model = "openai/o3-mini"
 
 [cost]
-input = 1.4288
-output = 5.7151
+input = 1.43
+output = 5.72

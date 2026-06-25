@@ -5,5 +5,5 @@
 base_model = "google/gemma-4-31b-it"
 
 [cost]
-input = 0.1559
-output = 0.4546
+input = 0.156
+output = 0.455

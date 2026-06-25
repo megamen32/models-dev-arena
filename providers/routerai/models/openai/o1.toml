@@ -5,5 +5,5 @@
 base_model = "openai/o1"
 
 [cost]
-input = 19.4831
-output = 77.9325
+input = 19.5
+output = 78

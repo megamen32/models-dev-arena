@@ -5,5 +5,5 @@
 base_model = "cohere/command-r-plus-08-2024"
 
 [cost]
-input = 3.2472
-output = 12.9888
+input = 3.25
+output = 13

@@ -5,5 +5,5 @@
 base_model = "deepseek/deepseek-r1"
 
 [cost]
-input = 0.9092
-output = 3.2472
+input = 0.91
+output = 3.25

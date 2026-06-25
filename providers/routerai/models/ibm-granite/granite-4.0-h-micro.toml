@@ -12,7 +12,7 @@ context = 131000
 
 [cost]
 input = 0.0221
-output = 0.1455
+output = 0.1456
 
 attachment = false
 tool_call = false

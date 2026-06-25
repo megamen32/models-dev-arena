@@ -5,5 +5,5 @@
 base_model = "nvidia/nemotron-3-ultra-550b-a55b"
 
 [cost]
-input = 0.6494
-output = 2.8575
+input = 0.65
+output = 2.86

@@ -5,5 +5,5 @@
 base_model = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
 
 [cost]
-input = 0.5196
-output = 0.5196
+input = 0.52
+output = 0.52

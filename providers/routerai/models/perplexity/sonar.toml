@@ -5,5 +5,5 @@
 base_model = "perplexity/sonar"
 
 [cost]
-input = 1.2989
-output = 1.2989
+input = 1.3
+output = 1.3

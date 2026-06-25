@@ -35,6 +35,7 @@ import {
   type BenchmarkEntry,
   type BenchmarkAttach,
 } from "./sync-benchmarks";
+import { getUsdRubRate, usdPer1MToRubPerToken } from "../src/currency";
 
 const ARENA_BASE = "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard";
 const CATEGORIES_TO_FETCH = ["text", "code"] as const;
@@ -345,6 +346,11 @@ function main() {
       `(${alpacaOnlyAdded} alpaca-only) → ${outPath}`
     );
 
+    // Note: arena `score` is a normalized quality metric (0.4..0.98),
+    // NOT a per-million-token price — converting it to RUB would be nonsense.
+    // Real RUB pricing lives under models.json's per-provider [cost] section.
+    // See models.json.rub.json generation below.
+
     // _meta.json — tiny status file for GitHub Pages consumers / status badges.
     const meta = {
       generatedAt: now,
@@ -362,6 +368,17 @@ function main() {
           metric: "length_controlled_winrate",
           correlation_with_arena: 0.98,
         },
+      },
+      currency: {
+        primary: "USD",
+        rate_source: "cbr-xml-daily.ru/daily_eng.xml (Bank of Russia)",
+        fallback_chain: [
+          "cbr-xml-daily.ru/daily_json.js",
+          "api.exchangerate.host",
+          "open.er-api.com",
+        ],
+        rub_variant_url: "/models.json.rub.json",
+        rub_query_param: "?currency=rub",
       },
       counts: {
         modelsDevEntries: models.length,
@@ -459,6 +476,57 @@ function main() {
     writeFileSync(modelsPath, JSON.stringify(data, null, 2));
     console.log(`[models.json] updated in place → ${modelsPath}`);
 
+    // RUB-priced variant: models.dev stores prices as USD per token (strings).
+    // We convert each `pricing.<k>` value to RUB per token by multiplying
+    // by the current CBR USD/RUB rate. The result is added as a parallel
+    // `pricing_rub` object alongside the original USD `pricing` block.
+    try {
+      const fxRate = await getUsdRubRate();
+      const rubData = JSON.parse(JSON.stringify(data));
+      let converted = 0;
+      for (const m of rubData.data as any[]) {
+        const pricing = m.pricing;
+        if (!pricing || typeof pricing !== "object") continue;
+        const rub: Record<string, number> = {};
+        // Field name mapping: models.dev uses prompt/completion/input_cache_*.
+        for (const [srcKey, dstKey] of [
+          ["prompt", "input"],
+          ["completion", "output"],
+          ["input_cache_read", "cache_read"],
+          ["input_cache_write", "cache_write"],
+          ["internal_reasoning", "reasoning"],
+          ["input_audio", "input_audio"],
+          ["output_audio", "output_audio"],
+        ] as Array<[string, string]>) {
+          const raw = pricing[srcKey];
+          const usdPerToken = typeof raw === "number" ? raw : parseFloat(String(raw));
+          if (Number.isFinite(usdPerToken) && usdPerToken > 0) {
+            // USD per token → RUB per token
+            rub[dstKey] = round10(usdPerToken * fxRate.rate);
+          }
+        }
+        if (Object.keys(rub).length > 0) {
+          m.pricing_rub = rub;
+          m.pricing_rub_meta = {
+            source: "USD→RUB via CBR daily rate",
+            usd_rub_rate: fxRate.rate,
+            rate_source: fxRate.source,
+            fetchedAt: fxRate.fetchedAt,
+            note: "All values are RUB per token (string-encoded to preserve precision)",
+          };
+          converted++;
+        }
+      }
+      const rubPath = resolve(root, "models.json.rub.json");
+      writeFileSync(rubPath, JSON.stringify(rubData, null, 2));
+      console.log(
+        `[models.json.rub.json] converted ${converted}/${models.length} models ` +
+        `(USD→RUB at ${fxRate.rate}) → ${rubPath}`
+      );
+    } catch (e) {
+      console.warn(`[models.json.rub.json] skipped: ${e instanceof Error ? e.message : e}`);
+    }
+
     writeFileSync(metaPath, JSON.stringify(meta, null, 2));
     console.log(`[_meta.json] wrote → ${metaPath}`);
   })();
@@ -468,5 +536,13 @@ main().catch((err) => {
   console.error("[sync-arena] failed:", err);
   process.exit(1);
 });
+
+function round6(n: number): number {
+  return Math.round(n * 1_000_000) / 1_000_000;
+}
+
+function round10(n: number): number {
+  return Math.round(n * 10_000_000_000) / 10_000_000_000;
+}
 
 

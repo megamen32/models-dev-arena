@@ -5,5 +5,5 @@
 base_model = "moonshotai/kimi-k2.7-code"
 
 [cost]
-input = 0.9612
-output = 4.5461
+input = 0.962
+output = 4.55

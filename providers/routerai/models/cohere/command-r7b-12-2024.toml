@@ -5,5 +5,5 @@
 base_model = "cohere/command-r7b-12-2024"
 
 [cost]
-input = 0.0487
-output = 0.1948
+input = 0.0488
+output = 0.195

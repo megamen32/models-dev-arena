@@ -5,5 +5,5 @@
 base_model = "tencent/hy3-preview"
 
 [cost]
-input = 0.0818
-output = 0.2728
+input = 0.0819
+output = 0.273

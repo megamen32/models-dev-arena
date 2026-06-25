@@ -78,10 +78,23 @@
     <ul class="endpoints">
       <li><span class="url">/models-arena.json</span> — flat lookup keyed by Arena model name (one entry per leaderboard model).</li>
       <li><span class="url">/models.json</span> — full models.dev catalog with <code>arena</code> field attached where matched (87 of 364 entries on last sync).</li>
-      <li><span class="url">/_meta.json</span> — last-sync timestamp, source URLs, and counts.</li>
+      <li><span class="url">/models.json.rub.json</span> — same catalog with <code>pricing_rub</code> field added (USD→RUB per token via ЦБ РФ daily rate).</li>
+      <li><span class="url">/_meta.json</span> — last-sync timestamp, source URLs, counts, currency metadata.</li>
+      <li><span class="url">/currency.json</span> — current FX rates (ЦБ РФ primary, daily).</li>
       <li><span class="url">/INTELLIGENCE.md</span> — formula, confidence buckets, matching strategy.</li>
       <li><span class="url">/sync-arena</span> — the Bun script that builds it all (<code>packages/core/script/sync-arena.ts</code>).</li>
     </ul>
+
+    <h2>Currency display</h2>
+    <p>
+      Append <code>?currency=rub</code> to any URL below to load the
+      RUB-priced variant (e.g. <code>models.json?currency=rub</code> is
+      equivalent to <code>models.json.rub.json</code>). The current Bank
+      of Russia rate is fetched once per day and written to
+      <span class="url">currency.json</span> by
+      <code>packages/core/script/sync-currency.ts</code>.
+    </p>
+    <p id="fx-row">Loading FX…</p>
 
     <h2>Source repo</h2>
     <ul class="endpoints">
@@ -95,6 +108,16 @@
     </footer>
 
     <script>
+      // Resolve ?currency=rub|usd from the URL — defaults to USD.
+      // When RUB is selected, we hint via document.title that prices
+      // are quoted in RUB; the actual JSON files (models.json.rub.json)
+      // contain a `pricing_rub` field alongside the original USD values.
+      const params = new URLSearchParams(window.location.search);
+      const currency = (params.get("currency") || "usd").toLowerCase();
+      const isRub = currency === "rub";
+      const priceFile = isRub ? "./models.json.rub.json" : "./models.json";
+      const fxRow = document.getElementById("fx-row");
+
       // Fetch the latest _meta.json and render a small status card.
       // The fetch is best-effort — if it fails, the page still works.
       (async () => {
@@ -129,6 +152,46 @@
           `;
         } catch (err) {
           card.textContent = `Could not load _meta.json: ${err.message}`;
+        }
+      })();
+
+      // Fetch currency.json and show the live rate + a toggle link.
+      (async () => {
+        try {
+          const r = await fetch("./currency.json", { cache: "no-store" });
+          if (!r.ok) return;
+          const c = await r.json();
+          const rubPerUsd = c?.inverse_rates?.RUB_per_USD ?? c?.rates?.USD?.RUB;
+          if (!rubPerUsd) return;
+          const fetchedAt = c?.fetchedAt ? new Date(c.fetchedAt) : null;
+          const dateStr = fetchedAt ? fetchedAt.toISOString().slice(0, 10) : "—";
+          const otherUrl = new URL(window.location.href);
+          otherUrl.searchParams.set("currency", isRub ? "usd" : "rub");
+          const otherLabel = isRub ? "USD" : "RUB";
+          fxRow.innerHTML = `
+            <strong>1 USD = ${rubPerUsd} RUB</strong>
+            <small> (ЦБ РФ, ${dateStr}, source: ${c?.source || "CBR"})</small>
+            &nbsp;·&nbsp;
+            <a href="${otherUrl.toString()}">show prices in ${otherLabel}</a>
+          `;
+        } catch (err) {
+          fxRow.textContent = `Could not load currency.json: ${err.message}`;
+        }
+      })();
+
+      // Resolve data preview from the active currency file (best-effort).
+      (async () => {
+        try {
+          const r = await fetch(priceFile, { cache: "no-store" });
+          if (!r.ok) return;
+          const data = await r.json();
+          const count = Object.keys(data.arena || {}).length;
+          const fx = data.fx_rate;
+          const note = isRub && fx ? ` (ЦБ ${fx} RUB/USD)` : "";
+          // No need to render anything — keeping fetch warm for downstream tools.
+          document.title = document.title.replace("· public feed", `· ${currency.toUpperCase()} · ${count} models${note}`);
+        } catch {
+          // silent
         }
       })();
     </script>

@@ -11,8 +11,8 @@ last_updated = "2026-03-18"
 context = 204800
 
 [cost]
-input = 0.3117
-output = 1.2469
+input = 0.312
+output = 1.248
 
 attachment = false
 tool_call = true

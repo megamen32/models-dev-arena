@@ -5,5 +5,5 @@
 base_model = "deepseek/deepseek-chat"
 
 [cost]
-input = 0.26
-output = 1.0392
+input = 0.2603
+output = 1.0401

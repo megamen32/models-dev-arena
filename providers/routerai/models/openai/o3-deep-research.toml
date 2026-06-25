@@ -5,5 +5,5 @@
 base_model = "openai/o3-deep-research"
 
 [cost]
-input = 12.9888
-output = 51.955
+input = 13
+output = 52

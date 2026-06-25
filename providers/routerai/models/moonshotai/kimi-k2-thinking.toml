@@ -5,5 +5,5 @@
 base_model = "moonshotai/kimi-k2-thinking"
 
 [cost]
-input = 0.7793
-output = 3.2472
+input = 0.78
+output = 3.25

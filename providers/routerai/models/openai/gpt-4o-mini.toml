@@ -5,5 +5,5 @@
 base_model = "openai/gpt-4o-mini"
 
 [cost]
-input = 0.1948
-output = 0.7793
+input = 0.195
+output = 0.78

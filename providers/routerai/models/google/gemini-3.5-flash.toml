@@ -5,5 +5,5 @@
 base_model = "google/gemini-3.5-flash"
 
 [cost]
-input = 1.9483
-output = 11.6899
+input = 1.95
+output = 11.7

@@ -19,9 +19,9 @@
 
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
+import { getUsdRubRate, rubPerTokenToUsdPer1M } from "../src/currency";
 
 const ROUTERAI_BASE = "https://routerai.ru/api/v1";
-const USD_RUB_FALLBACK = 92.0;
 const SCHEMA_VERSION = "routerai-v1";
 
 interface RouterAIPricing {
@@ -70,63 +70,9 @@ async function fetchRouterAICatalog(): Promise<RouterAIModel[]> {
 }
 
 async function fetchUsdRubRate(): Promise<number> {
-  // Primary: official Central Bank of Russia daily rates (XML).
-  // CBR is the user's reference for RUB conversion, so it takes priority
-  // over commercial FX aggregators. Source:
-  //   https://www.cbr-xml-daily.ru/daily_eng.xml
-  try {
-    const res = await fetch("https://www.cbr-xml-daily.ru/daily_eng.xml", {
-      headers: { Accept: "application/xml,text/xml,*/*" },
-      signal: AbortSignal.timeout(10_000),
-    });
-    if (res.ok) {
-      // CBR serves windows-1251 — Bun's Response.text() will decode as UTF-8
-      // but the Cyrillic chars in <Name> are throwaway; only CharCode,
-      // Nominal, and VunitRate matter for parsing.
-      const xml = await res.text();
-      const usdBlock = xml.match(
-        /<CharCode>USD<\/CharCode>[\s\S]*?<\/Valute>/
-      );
-      if (usdBlock) {
-        const vunit = usdBlock[0].match(/<VunitRate>([0-9,]+)<\/VunitRate>/);
-        const nominal = usdBlock[0].match(/<Nominal>([0-9]+)<\/Nominal>/);
-        if (vunit && nominal) {
-          const rate = parseFloat(vunit[1].replace(",", ".")) / parseInt(nominal[1], 10);
-          if (Number.isFinite(rate) && rate > 0) {
-            console.log(`[routerai] USD/RUB rate (ЦБ РФ): ${rate}`);
-            return rate;
-          }
-        }
-      }
-    }
-  } catch (e) {
-    console.warn(`[routerai] CBR lookup failed: ${e instanceof Error ? e.message : e}`);
-  }
-
-  // Fallbacks: commercial FX APIs (less authoritative for RUB).
-  const fallbacks = [
-    "https://api.exchangerate.host/latest?base=USD&symbols=RUB",
-    "https://open.er-api.com/v6/latest/USD",
-  ];
-  for (const url of fallbacks) {
-    try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(10_000) });
-      if (!res.ok) continue;
-      const data: any = await res.json();
-      const rate =
-        data?.rates?.RUB ??
-        data?.conversion_rates?.RUB ??
-        data?.data?.rates?.RUB;
-      if (typeof rate === "number" && rate > 0) {
-        console.log(`[routerai] USD/RUB rate (fallback ${url}): ${rate}`);
-        return rate;
-      }
-    } catch {
-      // try next
-    }
-  }
-  console.warn(`[routerai] FX lookup failed; using fallback ${USD_RUB_FALLBACK}`);
-  return USD_RUB_FALLBACK;
+  const rate = await getUsdRubRate();
+  console.log(`[routerai] USD/RUB rate: ${rate.rate} (${rate.source})`);
+  return rate.rate;
 }
 
 function rubPerTokenToUsdPer1M(rubPerToken: number | undefined, rate: number): number {

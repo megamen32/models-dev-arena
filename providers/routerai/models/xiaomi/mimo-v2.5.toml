@@ -5,5 +5,5 @@
 base_model = "xiaomi/mimo-v2.5"
 
 [cost]
-input = 0.1364
-output = 0.3637
+input = 0.1365
+output = 0.364

@@ -5,5 +5,5 @@
 base_model = "openai/gpt-4.1-nano"
 
 [cost]
-input = 0.1299
-output = 0.5196
+input = 0.13
+output = 0.52
