@@ -304,3 +304,4 @@ main().catch((err) => {
   console.error("[sync-arena] failed:", err);
   process.exit(1);
 });
+
