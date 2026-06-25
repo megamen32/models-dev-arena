@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T06:33:36.760Z",
+  "generatedAt": "2026-06-25T08:49:13.582Z",
   "arena": {
     "text": {
       "leaderboard": "text",
@@ -16,14 +16,29 @@
       "model_count": 50
     }
   },
+  "benchmarks": {
+    "alpaca_lc": {
+      "fetchedAt": "2026-06-25T08:49:13.582Z",
+      "modelCount": 223,
+      "uniqueKeys": 219,
+      "source": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "public_url": "https://tatsu-lab.github.io/alpaca_eval/",
+      "metric": "length_controlled_winrate",
+      "correlation_with_arena": 0.98
+    }
+  },
   "counts": {
     "modelsDevEntries": 364,
-    "arenaEntries": 70,
-    "matched": 117
+    "arenaEntries": 293,
+    "arenaOnly": 70,
+    "alpacaOnly": 223,
+    "matched": 136,
+    "withAlpaca": 24
   },
   "sources": {
     "modelsDev": "https://models.dev",
     "arena": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard",
+    "alpaca_lc": "https://tatsu-lab.github.io/alpaca_eval/",
     "fork": "https://github.com/megamen32/models-dev-arena",
     "pages": "https://megamen32.github.io/models-dev-arena/"
   }
