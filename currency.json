@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rates": {
+    "USD": {
+      "RUB": 74.7738
+    },
+    "RUB": {
+      "USD": 0.01337367
+    }
+  },
+  "fetchedAt": "2026-06-25T11:25:23.738Z",
+  "source": "CBR XML (cbr-xml-daily.ru/daily_eng.xml)",
+  "inverse_rates": {
+    "RUB_per_USD": 74.7738
+  }
+}
