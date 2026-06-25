@@ -187,21 +187,27 @@ function findAlpacaMatch(
   return null;
 }
 
+/** Single benchmark entry — uniform shape across all sources.
+ *  Every entry exposes `score` ∈ [0, 1] so consumers can do
+ *  `[b.score for b in entry.benchmarks]` regardless of which source it came from.
+ */
+interface BenchmarkEntry {
+  source: string;                         // "arena" | "alpaca_lc" | ...
+  score: number;                          // 0..1, normalized
+  confidence?: "high" | "medium" | "low";
+  n_total?: number;                       // sample size underlying the score
+  url?: string;                           // source URL
+  /** Source-specific extras (kept for transparency, not required by clients). */
+  raw?: Record<string, unknown>;
+}
+
 /** Shape of the per-model benchmark attachment written to models.json. */
 interface BenchmarkAttach {
-  sources: string[];                      // explicit provenance
-  alpaca_lc?: {
-    winrate: number;                      // 0..1
-    length_controlled: number;            // 0..1 (the key metric)
-    n_total: number;
-    mode: string;
-    source: string;                      // URL
-  };
-  /** Kept for forward-compat: arena entries are written under `arena` field
-   *  by sync-arena.ts; the `sources` array on this object mirrors that. */
-  summary_score?: number;                 // max across all available sources, [0,1]
-  winner_source?: string;
-  confidence?: "high" | "medium" | "low";
+  sources: string[];                      // unique source names
+  score: number;                          // aggregate: max across entries
+  winner_source: string;                  // which entry supplied `score`
+  confidence: "high" | "medium" | "low";  // "high" iff 2+ sources agree
+  benchmarks: BenchmarkEntry[];           // list, iterable: [b.score for b in benchmarks]
 }
 
 export {

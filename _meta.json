@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T09:23:00.881Z",
+  "generatedAt": "2026-06-25T09:50:53.012Z",
   "arena": {
     "text": {
       "leaderboard": "text",
@@ -18,7 +18,7 @@
   },
   "benchmarks": {
     "alpaca_lc": {
-      "fetchedAt": "2026-06-25T09:23:00.881Z",
+      "fetchedAt": "2026-06-25T09:50:53.012Z",
       "modelCount": 223,
       "uniqueKeys": 219,
       "source": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
@@ -33,7 +33,8 @@
     "arenaOnly": 70,
     "alpacaOnly": 223,
     "matched": 136,
-    "withAlpaca": 24
+    "withAlpaca": 24,
+    "withBothSources": 5
   },
   "sources": {
     "modelsDev": "https://models.dev",

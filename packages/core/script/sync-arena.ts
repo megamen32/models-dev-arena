@@ -32,6 +32,7 @@ import {
   normalizeBenchmarkKey,
   ALPACA_LC_URL,
   type AlpacaLCEntry,
+  type BenchmarkEntry,
   type BenchmarkAttach,
 } from "./sync-benchmarks";
 
@@ -261,7 +262,7 @@ function main() {
 
     // Flat lookup artifact: one entry per (model, leaderboard) pair PLUS
     // alpaca-only models that have no Arena equivalent.
-    type FlatEntry = ArenaAttach & { sources: string[]; benchmarks?: Record<string, unknown> };
+    type FlatEntry = ArenaAttach & { sources: string[]; benchmarks?: BenchmarkAttach };
     const flat: Record<string, FlatEntry> = {};
     for (const cat of CATEGORIES_TO_FETCH) {
       const lb = arena[cat];
@@ -271,7 +272,25 @@ function main() {
       const maxElo = Math.max(...scores);
       for (const m of lb.models) {
         const e = buildEntry(cat, m, minElo, maxElo, lb.meta);
-        flat[m.model.toLowerCase()] = { ...e.attach, sources: ["arena"] };
+        const arenaEntry: BenchmarkEntry = {
+          source: "arena",
+          score: e.attach.score,
+          confidence: e.attach.confidence,
+          n_total: e.attach.votes,
+          url: e.attach.sourceUrl,
+          raw: { rank: e.attach.rank, elo: e.attach.elo, ci: e.attach.ci, vendor: e.attach.vendor },
+        };
+        flat[m.model.toLowerCase()] = {
+          ...e.attach,
+          sources: ["arena"],
+          benchmarks: {
+            sources: ["arena"],
+            score: e.attach.score,
+            winner_source: "arena",
+            confidence: e.attach.confidence,
+            benchmarks: [arenaEntry],
+          },
+        };
       }
     }
 
@@ -280,26 +299,40 @@ function main() {
     for (const ap of alpacaEntries) {
       const key = ap.rawKey.toLowerCase();
       if (flat[key]) continue;
+      const lcScore = Math.round(ap.lengthControlledWinrate * 10000) / 10000;
+      const wrScore = Math.round(ap.rawWinrate * 10000) / 10000;
+      const confidence: "high" | "medium" | "low" =
+        ap.nTotal >= 5000 ? "high" : ap.nTotal >= 1000 ? "medium" : "low";
+      const alpacaEntry: BenchmarkEntry = {
+        source: "alpaca_lc",
+        score: lcScore,
+        confidence,
+        n_total: ap.nTotal,
+        url: "https://tatsu-lab.github.io/alpaca_eval/",
+        raw: {
+          winrate: wrScore,
+          length_controlled: lcScore,
+          mode: ap.mode,
+        },
+      };
       flat[key] = {
-        leaderboard: "text" as const, // alpaca_lc is text-only
+        leaderboard: "text" as const,
         rank: 0,
         elo: 0,
         ci: Math.round(ap.standardError * 100) / 100,
         votes: ap.nTotal,
         vendor: "",
         license: "",
-        score: Math.round(ap.lengthControlledWinrate * 10000) / 10000,
-        confidence: ap.nTotal >= 5000 ? "high" : ap.nTotal >= 1000 ? "medium" : "low",
+        score: lcScore,
+        confidence,
         categories: ["default", "review", "documentation", "debugging"],
         sources: ["alpaca_lc"],
         benchmarks: {
-          alpaca_lc: {
-            winrate: Math.round(ap.rawWinrate * 10000) / 10000,
-            length_controlled: Math.round(ap.lengthControlledWinrate * 10000) / 10000,
-            n_total: ap.nTotal,
-            mode: ap.mode,
-            source: "https://tatsu-lab.github.io/alpaca_eval/",
-          },
+          sources: ["alpaca_lc"],
+          score: lcScore,
+          winner_source: "alpaca_lc",
+          confidence,
+          benchmarks: [alpacaEntry],
         },
       };
       alpacaOnlyAdded++;
@@ -348,41 +381,79 @@ function main() {
     const metaPath = resolve(root, "_meta.json");
 
     // Attach `arena` and/or `benchmarks` fields to each models.dev entry.
+    // `benchmarks` is a UNIFIED shape: every entry in the .benchmarks list has
+    // a `score` field, so consumers can iterate freely:
+    //   sum(b.score for b in model.benchmarks.benchmarks)
+    //   max(b.score for b in model.benchmarks.benchmarks)
     let matched = 0;
     let withAlpaca = 0;
+    let withBothSources = 0;
     for (const m of models) {
       const arenaMatch = findMatch(m.id, arenaByName);
       const modelKey = normalizeModelsDevId(m.id);
       const alpacaMatch = findAlpacaMatch(modelKey, alpacaByKey);
 
-      const sources: string[] = [];
+      const entries: BenchmarkEntry[] = [];
       if (arenaMatch) {
         m.arena = arenaMatch.attach;
-        sources.push("arena");
+        entries.push({
+          source: "arena",
+          score: arenaMatch.attach.score,
+          confidence: arenaMatch.attach.confidence,
+          n_total: arenaMatch.attach.votes,
+          url: arenaMatch.attach.sourceUrl,
+          raw: {
+            rank: arenaMatch.attach.rank,
+            elo: arenaMatch.attach.elo,
+            ci: arenaMatch.attach.ci,
+            vendor: arenaMatch.attach.vendor,
+          },
+        });
       }
       if (alpacaMatch) {
-        const bench: BenchmarkAttach = {
-          sources,
-          alpaca_lc: {
+        const lcScore = Math.round(alpacaMatch.lengthControlledWinrate * 10000) / 10000;
+        entries.push({
+          source: "alpaca_lc",
+          score: lcScore,
+          confidence:
+            alpacaMatch.nTotal >= 5000 ? "high" : alpacaMatch.nTotal >= 1000 ? "medium" : "low",
+          n_total: alpacaMatch.nTotal,
+          url: "https://tatsu-lab.github.io/alpaca_eval/",
+          raw: {
             winrate: Math.round(alpacaMatch.rawWinrate * 10000) / 10000,
-            length_controlled: Math.round(alpacaMatch.lengthControlledWinrate * 10000) / 10000,
-            n_total: alpacaMatch.nTotal,
+            length_controlled: lcScore,
             mode: alpacaMatch.mode,
-            source: "https://tatsu-lab.github.io/alpaca_eval/",
           },
-        };
-        bench.sources = [...sources, "alpaca_lc"];
-        m.benchmarks = bench;
-        sources.push("alpaca_lc");
+        });
         withAlpaca++;
       }
-      if (sources.length > 0) matched++;
+
+      if (entries.length > 0) {
+        // Aggregate: winner_source = entry with highest score.
+        let winner = entries[0];
+        for (const e of entries) {
+          if (e.score > winner.score) winner = e;
+        }
+        const sources = Array.from(new Set(entries.map((e) => e.source)));
+        const confidence: "high" | "medium" | "low" =
+          entries.length >= 2 ? "high" : (entries[0].confidence ?? "medium");
+        m.benchmarks = {
+          sources,
+          score: winner.score,
+          winner_source: winner.source,
+          confidence,
+          benchmarks: entries,
+        };
+        matched++;
+        if (entries.length >= 2) withBothSources++;
+      }
     }
     meta.counts.matched = matched;
     meta.counts.withAlpaca = withAlpaca;
+    meta.counts.withBothSources = withBothSources;
     console.log(
       `[models.json] attached arena to ${matched - withAlpaca}/${models.length} entries, ` +
-      `alpaca_lc to ${withAlpaca}/${models.length}`
+      `alpaca_lc to ${withAlpaca}/${models.length}, both sources to ${withBothSources}/${models.length}`
     );
 
     writeFileSync(modelsPath, JSON.stringify(data, null, 2));
