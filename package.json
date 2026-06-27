@@ -34,7 +34,8 @@
     "arena:sync": "bun ./packages/core/script/sync-arena.ts",
     "benchmarks:sync": "bun ./packages/core/script/sync-benchmarks.ts",
     "currency:sync": "bun ./packages/core/script/sync-currency.ts",
-    "routerai:sync": "bun ./packages/core/script/sync-routerai.ts"
+    "routerai:sync": "bun ./packages/core/script/sync-routerai.ts",
+    "verify-kc": "bun ./packages/core/script/verify-kc.ts"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20260424.1",
