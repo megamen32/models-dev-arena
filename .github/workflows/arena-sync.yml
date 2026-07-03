@@ -51,27 +51,36 @@ jobs:
         # GitHub Pages feed is updated in lockstep with dev. The Pages
         # site is served from gh-pages, not dev, so the heavy upstream
         # tree never enters the artifact upload (which was getting
-        # rejected by the secret scanner).
+        # rejected by the secret scanner). First-run repos may not have a
+        # gh-pages branch yet, so create an orphan worktree when needed.
         run: |
-          git worktree add -f /tmp/gh-pages gh-pages
-          cp _meta.json models-arena.json INTELLIGENCE.md /tmp/gh-pages/
-          cd /tmp/gh-pages
-          # Ensure the marker files exist.
+          pages_dir="${RUNNER_TEMP:-/tmp}/models-dev-arena-gh-pages"
+          rm -rf "$pages_dir"
+
+          git fetch --no-tags --depth=1 origin gh-pages || true
+          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            git worktree add -f "$pages_dir" origin/gh-pages
+          else
+            git worktree add -f --detach "$pages_dir"
+            git -C "$pages_dir" switch --orphan gh-pages
+            git -C "$pages_dir" rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp _meta.json models-arena.json INTELLIGENCE.md \
+             logo-light.svg logo-dark.svg index.html "$pages_dir"/
+          cd "$pages_dir"
+          # Ensure the marker file exists.
           touch .nojekyll
-          # Pull logos from the dev checkout so favicon survives.
-          cp /tmp/opencode/models-dev-arena/logo-light.svg .
-          cp /tmp/opencode/models-dev-arena/logo-dark.svg .
-          # Refresh index.html from the dev copy too (status card layout).
-          cp /tmp/opencode/models-dev-arena/index.html .
           git add .nojekyll _meta.json models-arena.json INTELLIGENCE.md \
                   logo-light.svg logo-dark.svg index.html
           if [[ -n "$(git status --porcelain)" ]]; then
             git -c user.email="github-actions[bot]@users.noreply.github.com" \
                 -c user.name="github-actions[bot]" \
                 commit -m "chore(pages): refresh public feed"
-            git push origin gh-pages
+            git push origin HEAD:gh-pages
             echo "::notice::Public feed updated."
           else
             echo "::notice::Public feed is up to date."
           fi
-          git worktree remove /tmp/gh-pages --force
+          cd "$GITHUB_WORKSPACE"
+          git worktree remove "$pages_dir" --force
