@@ -15,7 +15,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -51,14 +51,14 @@
       "votes": 12312,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7408,
+      "score": 0.5782,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -66,13 +66,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7408,
+        "score": 0.5782,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7408,
+            "score": 0.5782,
             "confidence": "high",
             "n_total": 12312,
             "url": "https://arena.ai/leaderboard/code",
@@ -94,14 +94,14 @@
       "votes": 9932,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7724,
+      "score": 0.6312,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -109,13 +109,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7724,
+        "score": 0.6312,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7724,
+            "score": 0.6312,
             "confidence": "high",
             "n_total": 9932,
             "url": "https://arena.ai/leaderboard/code",
@@ -137,14 +137,14 @@
       "votes": 13500,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.725,
+      "score": 0.5516,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -152,13 +152,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.725,
+        "score": 0.5516,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.725,
+            "score": 0.5516,
             "confidence": "high",
             "n_total": 13500,
             "url": "https://arena.ai/leaderboard/code",
@@ -180,14 +180,14 @@
       "votes": 9362,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7724,
+      "score": 0.6312,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -195,13 +195,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7724,
+        "score": 0.6312,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7724,
+            "score": 0.6312,
             "confidence": "high",
             "n_total": 9362,
             "url": "https://arena.ai/leaderboard/code",
@@ -223,14 +223,14 @@
       "votes": 1342,
       "vendor": "Meta",
       "license": "proprietary",
-      "score": 0.734,
+      "score": 0.5668,
       "confidence": "medium",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -238,13 +238,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.734,
+        "score": 0.5668,
         "winner_source": "arena",
         "confidence": "medium",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.734,
+            "score": 0.5668,
             "confidence": "medium",
             "n_total": 1342,
             "url": "https://arena.ai/leaderboard/code",
@@ -276,7 +276,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -322,7 +322,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -351,21 +351,24 @@
       }
     },
     "gemini-3-pro": {
-      "leaderboard": "code",
-      "rank": 34,
-      "elo": 1439,
-      "ci": 7,
-      "votes": 17161,
+      "leaderboard": "text",
+      "rank": 9,
+      "elo": 1486,
+      "ci": 4,
+      "votes": 41308,
       "vendor": "Google",
       "license": "proprietary",
-      "score": 0.5061,
+      "score": 0.5989,
       "confidence": "high",
       "categories": [
-        "coding"
+        "default",
+        "review",
+        "documentation",
+        "debugging"
       ],
       "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -373,20 +376,20 @@
         "sources": [
           "arena"
         ],
-        "score": 0.5061,
+        "score": 0.5989,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.5061,
+            "score": 0.5989,
             "confidence": "high",
-            "n_total": 17161,
-            "url": "https://arena.ai/leaderboard/code",
+            "n_total": 41308,
+            "url": "https://arena.ai/leaderboard/text",
             "raw": {
-              "rank": 34,
-              "elo": 1439,
-              "ci": 7,
+              "rank": 9,
+              "elo": 1486,
+              "ci": 4,
               "vendor": "Google"
             }
           }
@@ -394,21 +397,24 @@
       }
     },
     "gemini-3.1-pro-preview": {
-      "leaderboard": "code",
-      "rank": 32,
-      "elo": 1445,
-      "ci": 6,
-      "votes": 16698,
+      "leaderboard": "text",
+      "rank": 10,
+      "elo": 1485,
+      "ci": 4,
+      "votes": 78561,
       "vendor": "Google",
       "license": "proprietary",
-      "score": 0.5196,
+      "score": 0.5823,
       "confidence": "high",
       "categories": [
-        "coding"
+        "default",
+        "review",
+        "documentation",
+        "debugging"
       ],
       "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -416,20 +422,20 @@
         "sources": [
           "arena"
         ],
-        "score": 0.5196,
+        "score": 0.5823,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.5196,
+            "score": 0.5823,
             "confidence": "high",
-            "n_total": 16698,
-            "url": "https://arena.ai/leaderboard/code",
+            "n_total": 78561,
+            "url": "https://arena.ai/leaderboard/text",
             "raw": {
-              "rank": 32,
-              "elo": 1445,
-              "ci": 6,
+              "rank": 10,
+              "elo": 1485,
+              "ci": 4,
               "vendor": "Google"
             }
           }
@@ -444,14 +450,14 @@
       "votes": 6710,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7791,
+      "score": 0.6426,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -459,13 +465,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7791,
+        "score": 0.6426,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7791,
+            "score": 0.6426,
             "confidence": "high",
             "n_total": 6710,
             "url": "https://arena.ai/leaderboard/code",
@@ -497,7 +503,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -543,7 +549,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -589,7 +595,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -625,14 +631,14 @@
       "votes": 5094,
       "vendor": "Google",
       "license": "proprietary",
-      "score": 0.6437,
+      "score": 0.4152,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -640,13 +646,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6437,
+        "score": 0.4152,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6437,
+            "score": 0.4152,
             "confidence": "high",
             "n_total": 5094,
             "url": "https://arena.ai/leaderboard/code",
@@ -678,7 +684,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -724,7 +730,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -760,14 +766,14 @@
       "votes": 5429,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7205,
+      "score": 0.5441,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -775,13 +781,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7205,
+        "score": 0.5441,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7205,
+            "score": 0.5441,
             "confidence": "high",
             "n_total": 5429,
             "url": "https://arena.ai/leaderboard/code",
@@ -813,7 +819,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -859,7 +865,7 @@
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -895,14 +901,14 @@
       "votes": 624,
       "vendor": "OpenAI",
       "license": "proprietary",
-      "score": 0.9507,
+      "score": 0.9307,
       "confidence": "low",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -910,13 +916,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.9507,
+        "score": 0.9307,
         "winner_source": "arena",
         "confidence": "low",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.9507,
+            "score": 0.9307,
             "confidence": "low",
             "n_total": 624,
             "url": "https://arena.ai/leaderboard/code",
@@ -938,14 +944,14 @@
       "votes": 4290,
       "vendor": "Z.ai",
       "license": "open",
-      "score": 0.8243,
+      "score": 0.7184,
       "confidence": "medium",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -953,13 +959,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.8243,
+        "score": 0.7184,
         "winner_source": "arena",
         "confidence": "medium",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.8243,
+            "score": 0.7184,
             "confidence": "medium",
             "n_total": 4290,
             "url": "https://arena.ai/leaderboard/code",
@@ -981,14 +987,14 @@
       "votes": 1598,
       "vendor": "SpaceXAI",
       "license": "proprietary",
-      "score": 0.7927,
+      "score": 0.6654,
       "confidence": "medium",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -996,13 +1002,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7927,
+        "score": 0.6654,
         "winner_source": "arena",
         "confidence": "medium",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7927,
+            "score": 0.6654,
             "confidence": "medium",
             "n_total": 1598,
             "url": "https://arena.ai/leaderboard/code",
@@ -1024,14 +1030,14 @@
       "votes": 2421,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.7408,
+      "score": 0.5782,
       "confidence": "medium",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1039,13 +1045,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7408,
+        "score": 0.5782,
         "winner_source": "arena",
         "confidence": "medium",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7408,
+            "score": 0.5782,
             "confidence": "medium",
             "n_total": 2421,
             "url": "https://arena.ai/leaderboard/code",
@@ -1067,14 +1073,14 @@
       "votes": 3395,
       "vendor": "Bytedance",
       "license": "proprietary",
-      "score": 0.7318,
+      "score": 0.563,
       "confidence": "medium",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1082,13 +1088,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7318,
+        "score": 0.563,
         "winner_source": "arena",
         "confidence": "medium",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7318,
+            "score": 0.563,
             "confidence": "medium",
             "n_total": 3395,
             "url": "https://arena.ai/leaderboard/code",
@@ -1110,14 +1116,14 @@
       "votes": 5349,
       "vendor": "Z.ai",
       "license": "open",
-      "score": 0.7047,
+      "score": 0.5175,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1125,13 +1131,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.7047,
+        "score": 0.5175,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.7047,
+            "score": 0.5175,
             "confidence": "high",
             "n_total": 5349,
             "url": "https://arena.ai/leaderboard/code",
@@ -1153,14 +1159,14 @@
       "votes": 15725,
       "vendor": "Anthropic",
       "license": "proprietary",
-      "score": 0.6911,
+      "score": 0.4948,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1168,13 +1174,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6911,
+        "score": 0.4948,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6911,
+            "score": 0.4948,
             "confidence": "high",
             "n_total": 15725,
             "url": "https://arena.ai/leaderboard/code",
@@ -1196,14 +1202,14 @@
       "votes": 5874,
       "vendor": "Alibaba",
       "license": "proprietary",
-      "score": 0.6911,
+      "score": 0.4948,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1211,13 +1217,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6911,
+        "score": 0.4948,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6911,
+            "score": 0.4948,
             "confidence": "high",
             "n_total": 5874,
             "url": "https://arena.ai/leaderboard/code",
@@ -1239,14 +1245,14 @@
       "votes": 8868,
       "vendor": "Moonshot",
       "license": "open",
-      "score": 0.6731,
+      "score": 0.4644,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1254,13 +1260,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6731,
+        "score": 0.4644,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6731,
+            "score": 0.4644,
             "confidence": "high",
             "n_total": 8868,
             "url": "https://arena.ai/leaderboard/code",
@@ -1282,14 +1288,14 @@
       "votes": 8601,
       "vendor": "OpenAI",
       "license": "proprietary",
-      "score": 0.6482,
+      "score": 0.4227,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1297,13 +1303,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6482,
+        "score": 0.4227,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6482,
+            "score": 0.4227,
             "confidence": "high",
             "n_total": 8601,
             "url": "https://arena.ai/leaderboard/code",
@@ -1325,14 +1331,14 @@
       "votes": 5658,
       "vendor": "MiniMax",
       "license": "open",
-      "score": 0.6347,
+      "score": 0.4,
       "confidence": "high",
       "categories": [
         "coding"
       ],
       "lastUpdated": "Jul 10, 2026",
       "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
+      "fetchedAt": "2026-07-13T05:04:49.718952+00:00",
       "sources": [
         "arena"
       ],
@@ -1340,13 +1346,13 @@
         "sources": [
           "arena"
         ],
-        "score": 0.6347,
+        "score": 0.4,
         "winner_source": "arena",
         "confidence": "high",
         "benchmarks": [
           {
             "source": "arena",
-            "score": 0.6347,
+            "score": 0.4,
             "confidence": "high",
             "n_total": 5658,
             "url": "https://arena.ai/leaderboard/code",
@@ -1354,1210 +1360,6 @@
               "rank": 20,
               "elo": 1496,
               "ci": 9,
-              "vendor": "MiniMax"
-            }
-          }
-        ]
-      }
-    },
-    "claude-opus-4-5-20251101-thinking-32k": {
-      "leaderboard": "code",
-      "rank": 21,
-      "elo": 1490,
-      "ci": 7,
-      "votes": 13064,
-      "vendor": "Anthropic",
-      "license": "proprietary",
-      "score": 0.6212,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.6212,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.6212,
-            "confidence": "high",
-            "n_total": 13064,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 21,
-              "elo": 1490,
-              "ci": 7,
-              "vendor": "Anthropic"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.5-high (codex-harness)": {
-      "leaderboard": "code",
-      "rank": 22,
-      "elo": 1481,
-      "ci": 7,
-      "votes": 10499,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.6009,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.6009,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.6009,
-            "confidence": "high",
-            "n_total": 10499,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 22,
-              "elo": 1481,
-              "ci": 7,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "qwen3.6-max-preview": {
-      "leaderboard": "code",
-      "rank": 23,
-      "elo": 1480,
-      "ci": 12,
-      "votes": 2542,
-      "vendor": "Alibaba",
-      "license": "proprietary",
-      "score": 0.5986,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5986,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5986,
-            "confidence": "medium",
-            "n_total": 2542,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 23,
-              "elo": 1480,
-              "ci": 12,
-              "vendor": "Alibaba"
-            }
-          }
-        ]
-      }
-    },
-    "mimo-v2.5-pro": {
-      "leaderboard": "code",
-      "rank": 24,
-      "elo": 1473,
-      "ci": 7,
-      "votes": 8927,
-      "vendor": "Xiaomi",
-      "license": "open",
-      "score": 0.5828,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5828,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5828,
-            "confidence": "high",
-            "n_total": 8927,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 24,
-              "elo": 1473,
-              "ci": 7,
-              "vendor": "Xiaomi"
-            }
-          }
-        ]
-      }
-    },
-    "kimi-k2.7-code": {
-      "leaderboard": "code",
-      "rank": 25,
-      "elo": 1469,
-      "ci": 10,
-      "votes": 4117,
-      "vendor": "Moonshot",
-      "license": "open",
-      "score": 0.5738,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5738,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5738,
-            "confidence": "medium",
-            "n_total": 4117,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 25,
-              "elo": 1469,
-              "ci": 10,
-              "vendor": "Moonshot"
-            }
-          }
-        ]
-      }
-    },
-    "claude-opus-4-5-20251101": {
-      "leaderboard": "code",
-      "rank": 26,
-      "elo": 1466,
-      "ci": 6,
-      "votes": 15327,
-      "vendor": "Anthropic",
-      "license": "proprietary",
-      "score": 0.567,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.567,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.567,
-            "confidence": "high",
-            "n_total": 15327,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 26,
-              "elo": 1466,
-              "ci": 6,
-              "vendor": "Anthropic"
-            }
-          }
-        ]
-      }
-    },
-    "qwen3.6-plus": {
-      "leaderboard": "code",
-      "rank": 27,
-      "elo": 1458,
-      "ci": 7,
-      "votes": 11420,
-      "vendor": "Alibaba",
-      "license": "proprietary",
-      "score": 0.5489,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5489,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5489,
-            "confidence": "high",
-            "n_total": 11420,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 27,
-              "elo": 1458,
-              "ci": 7,
-              "vendor": "Alibaba"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.4-high (codex-harness)": {
-      "leaderboard": "code",
-      "rank": 28,
-      "elo": 1457,
-      "ci": 17,
-      "votes": 1482,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.5467,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5467,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5467,
-            "confidence": "medium",
-            "n_total": 1482,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 28,
-              "elo": 1457,
-              "ci": 17,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "deepseek-v4-pro-thinking": {
-      "leaderboard": "code",
-      "rank": 29,
-      "elo": 1457,
-      "ci": 7,
-      "votes": 8368,
-      "vendor": "DeepSeek",
-      "license": "open",
-      "score": 0.5467,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5467,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5467,
-            "confidence": "high",
-            "n_total": 8368,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 29,
-              "elo": 1457,
-              "ci": 7,
-              "vendor": "DeepSeek"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.5 (codex-harness)": {
-      "leaderboard": "code",
-      "rank": 30,
-      "elo": 1450,
-      "ci": 7,
-      "votes": 8690,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.5309,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5309,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5309,
-            "confidence": "high",
-            "n_total": 8690,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 30,
-              "elo": 1450,
-              "ci": 7,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "deepseek-v4-pro": {
-      "leaderboard": "code",
-      "rank": 31,
-      "elo": 1446,
-      "ci": 7,
-      "votes": 9110,
-      "vendor": "DeepSeek",
-      "license": "open",
-      "score": 0.5219,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5219,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5219,
-            "confidence": "high",
-            "n_total": 9110,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 31,
-              "elo": 1446,
-              "ci": 7,
-              "vendor": "DeepSeek"
-            }
-          }
-        ]
-      }
-    },
-    "glm-4.7": {
-      "leaderboard": "code",
-      "rank": 33,
-      "elo": 1440,
-      "ci": 10,
-      "votes": 4885,
-      "vendor": "Z.ai",
-      "license": "open",
-      "score": 0.5083,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5083,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5083,
-            "confidence": "medium",
-            "n_total": 4885,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 33,
-              "elo": 1440,
-              "ci": 10,
-              "vendor": "Z.ai"
-            }
-          }
-        ]
-      }
-    },
-    "gemini-3-flash": {
-      "leaderboard": "code",
-      "rank": 35,
-      "elo": 1437,
-      "ci": 8,
-      "votes": 13277,
-      "vendor": "Google",
-      "license": "proprietary",
-      "score": 0.5016,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5016,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5016,
-            "confidence": "high",
-            "n_total": 13277,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 35,
-              "elo": 1437,
-              "ci": 8,
-              "vendor": "Google"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.4-medium (codex-harness)": {
-      "leaderboard": "code",
-      "rank": 36,
-      "elo": 1437,
-      "ci": 16,
-      "votes": 1449,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.5016,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.5016,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.5016,
-            "confidence": "medium",
-            "n_total": 1449,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 36,
-              "elo": 1437,
-              "ci": 16,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "kimi-k2.5-thinking": {
-      "leaderboard": "code",
-      "rank": 37,
-      "elo": 1433,
-      "ci": 6,
-      "votes": 14659,
-      "vendor": "Moonshot",
-      "license": "open",
-      "score": 0.4925,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4925,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4925,
-            "confidence": "high",
-            "n_total": 14659,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 37,
-              "elo": 1433,
-              "ci": 6,
-              "vendor": "Moonshot"
-            }
-          }
-        ]
-      }
-    },
-    "mimo-v2-pro": {
-      "leaderboard": "code",
-      "rank": 38,
-      "elo": 1431,
-      "ci": 8,
-      "votes": 6890,
-      "vendor": "Xiaomi",
-      "license": "proprietary",
-      "score": 0.488,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.488,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.488,
-            "confidence": "high",
-            "n_total": 6890,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 38,
-              "elo": 1431,
-              "ci": 8,
-              "vendor": "Xiaomi"
-            }
-          }
-        ]
-      }
-    },
-    "glm-5": {
-      "leaderboard": "code",
-      "rank": 39,
-      "elo": 1430,
-      "ci": 8,
-      "votes": 7451,
-      "vendor": "Z.ai",
-      "license": "open",
-      "score": 0.4858,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4858,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4858,
-            "confidence": "high",
-            "n_total": 7451,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 39,
-              "elo": 1430,
-              "ci": 8,
-              "vendor": "Z.ai"
-            }
-          }
-        ]
-      }
-    },
-    "mimo-v2.5": {
-      "leaderboard": "code",
-      "rank": 40,
-      "elo": 1429,
-      "ci": 7,
-      "votes": 8052,
-      "vendor": "Xiaomi",
-      "license": "open",
-      "score": 0.4835,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4835,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4835,
-            "confidence": "high",
-            "n_total": 8052,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 40,
-              "elo": 1429,
-              "ci": 7,
-              "vendor": "Xiaomi"
-            }
-          }
-        ]
-      }
-    },
-    "kimi-k2.5-instant": {
-      "leaderboard": "code",
-      "rank": 41,
-      "elo": 1408,
-      "ci": 11,
-      "votes": 3615,
-      "vendor": "Moonshot",
-      "license": "open",
-      "score": 0.4361,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4361,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4361,
-            "confidence": "medium",
-            "n_total": 3615,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 41,
-              "elo": 1408,
-              "ci": 11,
-              "vendor": "Moonshot"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.3-codex (codex-harness)": {
-      "leaderboard": "code",
-      "rank": 42,
-      "elo": 1406,
-      "ci": 12,
-      "votes": 2963,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.4316,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4316,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4316,
-            "confidence": "medium",
-            "n_total": 2963,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 42,
-              "elo": 1406,
-              "ci": 12,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.2": {
-      "leaderboard": "code",
-      "rank": 43,
-      "elo": 1405,
-      "ci": 17,
-      "votes": 1457,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.4293,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4293,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4293,
-            "confidence": "medium",
-            "n_total": 1457,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 43,
-              "elo": 1405,
-              "ci": 17,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "glm-5v-turbo": {
-      "leaderboard": "code",
-      "rank": 44,
-      "elo": 1402,
-      "ci": 26,
-      "votes": 550,
-      "vendor": "Z.ai",
-      "license": "proprietary",
-      "score": 0.4226,
-      "confidence": "low",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4226,
-        "winner_source": "arena",
-        "confidence": "low",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4226,
-            "confidence": "low",
-            "n_total": 550,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 44,
-              "elo": 1402,
-              "ci": 26,
-              "vendor": "Z.ai"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.4-mini-high": {
-      "leaderboard": "code",
-      "rank": 45,
-      "elo": 1397,
-      "ci": 7,
-      "votes": 9638,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.4113,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4113,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4113,
-            "confidence": "high",
-            "n_total": 9638,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 45,
-              "elo": 1397,
-              "ci": 7,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "qwen3.5-397b-a17b": {
-      "leaderboard": "code",
-      "rank": 46,
-      "elo": 1396,
-      "ci": 6,
-      "votes": 14070,
-      "vendor": "Alibaba",
-      "license": "open",
-      "score": 0.409,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.409,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.409,
-            "confidence": "high",
-            "n_total": 14070,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 46,
-              "elo": 1396,
-              "ci": 6,
-              "vendor": "Alibaba"
-            }
-          }
-        ]
-      }
-    },
-    "minimax-m2.7": {
-      "leaderboard": "code",
-      "rank": 47,
-      "elo": 1395,
-      "ci": 7,
-      "votes": 10085,
-      "vendor": "MiniMax",
-      "license": "open",
-      "score": 0.4068,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4068,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4068,
-            "confidence": "high",
-            "n_total": 10085,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 47,
-              "elo": 1395,
-              "ci": 7,
-              "vendor": "MiniMax"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5-medium": {
-      "leaderboard": "code",
-      "rank": 48,
-      "elo": 1394,
-      "ci": 13,
-      "votes": 3754,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.4045,
-      "confidence": "medium",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4045,
-        "winner_source": "arena",
-        "confidence": "medium",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4045,
-            "confidence": "medium",
-            "n_total": 3754,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 48,
-              "elo": 1394,
-              "ci": 13,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "gpt-5.4": {
-      "leaderboard": "code",
-      "rank": 49,
-      "elo": 1392,
-      "ci": 21,
-      "votes": 826,
-      "vendor": "OpenAI",
-      "license": "proprietary",
-      "score": 0.4,
-      "confidence": "low",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4,
-        "winner_source": "arena",
-        "confidence": "low",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4,
-            "confidence": "low",
-            "n_total": 826,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 49,
-              "elo": 1392,
-              "ci": 21,
-              "vendor": "OpenAI"
-            }
-          }
-        ]
-      }
-    },
-    "minimax-m2.1-preview": {
-      "leaderboard": "code",
-      "rank": 50,
-      "elo": 1392,
-      "ci": 8,
-      "votes": 9275,
-      "vendor": "MiniMax",
-      "license": "open",
-      "score": 0.4,
-      "confidence": "high",
-      "categories": [
-        "coding"
-      ],
-      "lastUpdated": "Jul 10, 2026",
-      "sourceUrl": "https://arena.ai/leaderboard/code",
-      "fetchedAt": "2026-07-12T04:57:52.858596+00:00",
-      "sources": [
-        "arena"
-      ],
-      "benchmarks": {
-        "sources": [
-          "arena"
-        ],
-        "score": 0.4,
-        "winner_source": "arena",
-        "confidence": "high",
-        "benchmarks": [
-          {
-            "source": "arena",
-            "score": 0.4,
-            "confidence": "high",
-            "n_total": 9275,
-            "url": "https://arena.ai/leaderboard/code",
-            "raw": {
-              "rank": 50,
-              "elo": 1392,
-              "ci": 8,
               "vendor": "MiniMax"
             }
           }
@@ -11931,5 +10733,5 @@
       }
     }
   },
-  "generatedAt": "2026-07-12T08:00:07.766Z"
+  "generatedAt": "2026-07-13T08:49:27.451Z"
 }
