@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-22T08:08:51.486Z",
+  "generatedAt": "2026-07-23T08:12:25.659Z",
   "arena": {
     "text": {
       "leaderboard": "text",
       "source_url": "https://arena.ai/leaderboard/text",
-      "fetched_at": "2026-07-22T04:50:47.525922+00:00",
+      "fetched_at": "2026-07-23T04:56:50.080763+00:00",
       "last_updated": "Jul 21, 2026",
-      "model_count": 100
+      "model_count": 20
     },
     "code": {
       "leaderboard": "code",
       "source_url": "https://arena.ai/leaderboard/code",
-      "fetched_at": "2026-07-22T04:50:47.525922+00:00",
+      "fetched_at": "2026-07-23T04:56:50.080763+00:00",
       "last_updated": "Jul 21, 2026",
       "model_count": 26
     }
   },
   "benchmarks": {
     "alpaca_lc": {
-      "fetchedAt": "2026-07-22T08:08:51.486Z",
+      "fetchedAt": "2026-07-23T08:12:25.659Z",
       "modelCount": 223,
       "uniqueKeys": 219,
       "source": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
@@ -40,12 +40,12 @@
   },
   "counts": {
     "modelsDevEntries": 364,
-    "arenaEntries": 330,
-    "arenaOnly": 107,
+    "arenaEntries": 260,
+    "arenaOnly": 37,
     "alpacaOnly": 223,
-    "matched": 143,
+    "matched": 118,
     "withAlpaca": 24,
-    "withBothSources": 8
+    "withBothSources": 4
   },
   "sources": {
     "modelsDev": "https://models.dev",
