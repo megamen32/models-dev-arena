@@ -12,11 +12,33 @@
 
 [Models.dev](https://models.dev) is a comprehensive open-source database of AI model specifications, pricing, and capabilities.
 
+**[Русский](./README.ru.md)** · **[简体中文](./README.zh.md)**
+
+![Models.dev Arena workflow](docs/assets/readme-hero.png)
+
+> Validation target: Bun 1.3.14. Run `bun install && bun run validate` after cloning.
+
 There's no single database with information about all the available AI models. We started Models.dev as a community-contributed project to address this. We also use it internally in [opencode](https://opencode.ai).
 
-> **This fork** augments the dataset with [Arena AI leaderboard](https://arena.ai) intelligence scores — see [INTELLIGENCE.md](./INTELLIGENCE.md) for the `score` formula, confidence buckets, and matching strategy. Run `bun run arena:sync` to refresh.
+> **Archive notice:** this public fork preserves the earlier [Arena AI leaderboard](https://arena.ai) integration, including its `score` formula and feed history. New Models.dev benchmark supplements are maintained in [models-supplement](https://github.com/megamen32/models-supplement).
 >
 > **Public feed**: <https://megamen32.github.io/models-dev-arena/> — JSON endpoints (`/models-arena.json`, `/models.json`, `/_meta.json`) updated daily by GitHub Actions.
+
+## Quick start
+
+This is a Bun workspace. From the repository root, install dependencies with one command:
+
+```bash
+bun install
+```
+
+The catalog is stored in `models/` and `providers/`; no separate database or service is required for local data work. Validate the catalog separately with `bun run validate`. To run the web interface locally after installation:
+
+```bash
+cd packages/web && bun run dev
+```
+
+Useful maintenance commands include `bun run arena:sync` for Arena scores, `bun run models:sync` for provider model data, and `bun run compare:migrations` when moving shared metadata into `models/`.
 
 ## API
 
